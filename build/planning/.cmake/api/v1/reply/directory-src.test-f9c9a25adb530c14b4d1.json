@@ -1,0 +1,79 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/test/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/planning",
+			"paths" : 
+			[
+				"src/test/osqp_test"
+			],
+			"targetId" : "osqp_test::@b7fcbc08bf8df37e9c1b",
+			"targetIndex" : 9,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "osqp_test::@b7fcbc08bf8df37e9c1b",
+				"index" : 9
+			},
+			"destination" : "lib/planning",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/planning",
+			"paths" : 
+			[
+				"src/test/newton_test"
+			],
+			"targetId" : "newton_test::@b7fcbc08bf8df37e9c1b",
+			"targetIndex" : 7,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "newton_test::@b7fcbc08bf8df37e9c1b",
+				"index" : 7
+			},
+			"destination" : "lib/planning",
+			"type" : "cxxModuleBmi"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/test",
+		"source" : "src/test"
+	}
+}

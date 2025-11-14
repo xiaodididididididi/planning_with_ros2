@@ -1,0 +1,19 @@
+[  5%] Built target global_planner
+[ 11%] Built target config_reader
+[ 20%] Built target pnc_map_creator
+[ 28%] Built target mathlibs
+[ 34%] Built target global_path_server
+[ 42%] Built target vehicle_info
+[ 51%] Built target reference_line
+[ 54%] [32m[1mLinking CXX executable pnc_map_server[0m
+[ 60%] Built target decision_center
+[ 71%] Built target car_move_cmd
+[ 71%] Built target obs_move_cmd
+[ 88%] Built target local_planner
+[ 97%] Built target planning_process
+/usr/bin/ld: libpnc_map_creator.so: undefined reference to `Planning::ConfigReader::ConfigReader()'
+/usr/bin/ld: libpnc_map_creator.so: undefined reference to `Planning::ConfigReader::read_pnc_map_config()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [src/pnc_map_creator/CMakeFiles/pnc_map_server.dir/build.make:205: src/pnc_map_creator/pnc_map_server] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:499: src/pnc_map_creator/CMakeFiles/pnc_map_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

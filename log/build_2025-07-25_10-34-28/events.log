@@ -1,0 +1,1289 @@
+[0.000000] (-) TimerEvent: {}
+[0.000501] (base_msgs) JobQueued: {'identifier': 'base_msgs', 'dependencies': OrderedDict()}
+[0.000728] (data_plot) JobQueued: {'identifier': 'data_plot', 'dependencies': OrderedDict([('base_msgs', '/home/abc/planning_with_ros2/install/base_msgs')])}
+[0.000754] (planning) JobQueued: {'identifier': 'planning', 'dependencies': OrderedDict([('base_msgs', '/home/abc/planning_with_ros2/install/base_msgs')])}
+[0.000774] (base_msgs) JobStarted: {'identifier': 'base_msgs'}
+[0.008767] (base_msgs) JobProgress: {'identifier': 'base_msgs', 'progress': 'cmake'}
+[0.009354] (base_msgs) JobProgress: {'identifier': 'base_msgs', 'progress': 'build'}
+[0.010049] (base_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/abc/planning_with_ros2/build/base_msgs', '--', '-j12', '-l12'], 'cwd': '/home/abc/planning_with_ros2/build/base_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'abc'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.102.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1531'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1689'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '109572'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abc/planning_with_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('JOURNAL_STREAM', '8:889'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS2_PLANNING_COURSE_INSTALL', '/home/abc/planning_with_ros2/install'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/abc-G3-3500:@/tmp/.ICE-unix/1657,unix/abc-G3-3500:/tmp/.ICE-unix/1657'), ('INVOCATION_ID', 'd12c1427a6a74384814e7741d54705f0'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-73f3b4a0a422bf73.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LQGG92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c59a044dc2.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/data_plot:/home/abc/planning_with_ros2/install/base_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abc/planning_with_ros2/build/base_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/abc/planning_with_ros2/install/data_plot/lib/python3.10/site-packages:/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/base_msgs:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble')]), 'shell': False}
+[0.036259] (base_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100012] (-) TimerEvent: {}
+[0.200244] (-) TimerEvent: {}
+[0.253535] (base_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.255955] (base_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.259967] (base_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.299805] (base_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300307] (-) TimerEvent: {}
+[0.333734] (base_msgs) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.400411] (-) TimerEvent: {}
+[0.448004] (base_msgs) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.500539] (-) TimerEvent: {}
+[0.600820] (-) TimerEvent: {}
+[0.701116] (-) TimerEvent: {}
+[0.801345] (-) TimerEvent: {}
+[0.901595] (-) TimerEvent: {}
+[1.001850] (-) TimerEvent: {}
+[1.074297] (base_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.101944] (-) TimerEvent: {}
+[1.202181] (-) TimerEvent: {}
+[1.302425] (-) TimerEvent: {}
+[1.402668] (-) TimerEvent: {}
+[1.502920] (-) TimerEvent: {}
+[1.603174] (-) TimerEvent: {}
+[1.676531] (base_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.703268] (-) TimerEvent: {}
+[1.803545] (-) TimerEvent: {}
+[1.903796] (-) TimerEvent: {}
+[2.004088] (-) TimerEvent: {}
+[2.104343] (-) TimerEvent: {}
+[2.204675] (-) TimerEvent: {}
+[2.304962] (-) TimerEvent: {}
+[2.405203] (-) TimerEvent: {}
+[2.479877] (base_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.503600] (base_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.505275] (-) TimerEvent: {}
+[2.528126] (base_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.528293] (base_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.528384] (base_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.605372] (-) TimerEvent: {}
+[2.623319] (base_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.639748] (base_msgs) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.640534] (base_msgs) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.640652] (base_msgs) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.642704] (base_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.647765] (base_msgs) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.647928] (base_msgs) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.648665] (base_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.652407] (base_msgs) StdoutLine: {'line': b'-- Configuring done (2.6s)\n'}
+[2.705463] (-) TimerEvent: {}
+[2.736566] (base_msgs) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.748774] (base_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/abc/planning_with_ros2/build/base_msgs\n'}
+[2.764641] (base_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.768811] (base_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.773217] (base_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_base_msgs\n'}
+[2.805560] (-) TimerEvent: {}
+[2.905841] (-) TimerEvent: {}
+[3.006172] (-) TimerEvent: {}
+[3.025239] (base_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.025977] (base_msgs) StdoutLine: {'line': b'writing base_msgs.egg-info/PKG-INFO\n'}
+[3.026175] (base_msgs) StdoutLine: {'line': b'writing dependency_links to base_msgs.egg-info/dependency_links.txt\n'}
+[3.026349] (base_msgs) StdoutLine: {'line': b'writing top-level names to base_msgs.egg-info/top_level.txt\n'}
+[3.028716] (base_msgs) StdoutLine: {'line': b"reading manifest file 'base_msgs.egg-info/SOURCES.txt'\n"}
+[3.029541] (base_msgs) StdoutLine: {'line': b"writing manifest file 'base_msgs.egg-info/SOURCES.txt'\n"}
+[3.054478] (base_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_base_msgs_egg\n'}
+[3.106262] (-) TimerEvent: {}
+[3.206524] (-) TimerEvent: {}
+[3.306816] (-) TimerEvent: {}
+[3.407083] (-) TimerEvent: {}
+[3.507329] (-) TimerEvent: {}
+[3.607584] (-) TimerEvent: {}
+[3.707829] (-) TimerEvent: {}
+[3.808104] (-) TimerEvent: {}
+[3.908357] (-) TimerEvent: {}
+[4.008629] (-) TimerEvent: {}
+[4.108867] (-) TimerEvent: {}
+[4.209114] (-) TimerEvent: {}
+[4.309354] (-) TimerEvent: {}
+[4.371484] (base_msgs) StdoutLine: {'line': b'[  1%] Built target base_msgs__cpp\n'}
+[4.376203] (base_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.376532] (base_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.376633] (base_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.409471] (-) TimerEvent: {}
+[4.430981] (base_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_c.dir/rosidl_generator_c/base_msgs/srv/detail/global_path_service__functions.c.o\x1b[0m\n'}
+[4.431457] (base_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_c.dir/rosidl_generator_c/base_msgs/srv/detail/pnc_map_service__functions.c.o\x1b[0m\n'}
+[4.431656] (base_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_c.dir/rosidl_generator_c/base_msgs/msg/detail/pnc_map__functions.c.o\x1b[0m\n'}
+[4.431807] (base_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_c.dir/rosidl_generator_c/base_msgs/msg/detail/referline_point__functions.c.o\x1b[0m\n'}
+[4.431988] (base_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_c.dir/rosidl_generator_c/base_msgs/msg/detail/referline__functions.c.o\x1b[0m\n'}
+[4.432116] (base_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_c.dir/rosidl_generator_c/base_msgs/msg/detail/local_path_point__functions.c.o\x1b[0m\n'}
+[4.434032] (base_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_c.dir/rosidl_generator_c/base_msgs/msg/detail/local_path__functions.c.o\x1b[0m\n'}
+[4.434300] (base_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_c.dir/rosidl_generator_c/base_msgs/msg/detail/local_speeds_point__functions.c.o\x1b[0m\n'}
+[4.443961] (base_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_c.dir/rosidl_generator_c/base_msgs/msg/detail/local_speeds__functions.c.o\x1b[0m\n'}
+[4.502961] (base_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_c.dir/rosidl_generator_c/base_msgs/msg/detail/local_trajectory_point__functions.c.o\x1b[0m\n'}
+[4.508112] (base_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_c.dir/rosidl_generator_c/base_msgs/msg/detail/local_trajectory__functions.c.o\x1b[0m\n'}
+[4.509580] (-) TimerEvent: {}
+[4.514337] (base_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_c.dir/rosidl_generator_c/base_msgs/msg/detail/obs_info__functions.c.o\x1b[0m\n'}
+[4.519582] (base_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_c.dir/rosidl_generator_c/base_msgs/msg/detail/plot_info__functions.c.o\x1b[0m\n'}
+[4.576984] (base_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libbase_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[4.603783] (base_msgs) StdoutLine: {'line': b'[ 14%] Built target base_msgs__rosidl_generator_c\n'}
+[4.608490] (base_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.609142] (base_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.609315] (base_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.609649] (-) TimerEvent: {}
+[4.709896] (-) TimerEvent: {}
+[4.810214] (-) TimerEvent: {}
+[4.910500] (-) TimerEvent: {}
+[5.010816] (-) TimerEvent: {}
+[5.111123] (-) TimerEvent: {}
+[5.211455] (-) TimerEvent: {}
+[5.311792] (-) TimerEvent: {}
+[5.412147] (-) TimerEvent: {}
+[5.512470] (-) TimerEvent: {}
+[5.612780] (-) TimerEvent: {}
+[5.713087] (-) TimerEvent: {}
+[5.813422] (-) TimerEvent: {}
+[5.862416] (base_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_msgs/srv/detail/global_path_service__type_support.cpp.o\x1b[0m\n'}
+[5.862962] (base_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_msgs/srv/detail/pnc_map_service__type_support.cpp.o\x1b[0m\n'}
+[5.863109] (base_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_msgs/msg/detail/pnc_map__type_support.cpp.o\x1b[0m\n'}
+[5.863224] (base_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_msgs/msg/detail/referline_point__type_support.cpp.o\x1b[0m\n'}
+[5.863331] (base_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_msgs/msg/detail/referline__type_support.cpp.o\x1b[0m\n'}
+[5.866608] (base_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_msgs/msg/detail/local_path_point__type_support.cpp.o\x1b[0m\n'}
+[5.866855] (base_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_msgs/msg/detail/local_path__type_support.cpp.o\x1b[0m\n'}
+[5.916974] (-) TimerEvent: {}
+[5.972520] (base_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_msgs/srv/global_path_service__type_support.cpp.o\x1b[0m\n'}
+[6.017094] (-) TimerEvent: {}
+[6.066275] (base_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_msgs/srv/pnc_map_service__type_support.cpp.o\x1b[0m\n'}
+[6.117194] (-) TimerEvent: {}
+[6.157428] (base_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_msgs/msg/pnc_map__type_support.cpp.o\x1b[0m\n'}
+[6.203731] (base_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_msgs/msg/referline_point__type_support.cpp.o\x1b[0m\n'}
+[6.207652] (base_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_msgs/srv/detail/dds_fastrtps/global_path_service__type_support.cpp.o\x1b[0m\n'}
+[6.217309] (-) TimerEvent: {}
+[6.257997] (base_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_msgs/msg/referline__type_support.cpp.o\x1b[0m\n'}
+[6.317481] (-) TimerEvent: {}
+[6.329894] (base_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_msgs/msg/local_path_point__type_support.cpp.o\x1b[0m\n'}
+[6.381029] (base_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_msgs/msg/local_path__type_support.cpp.o\x1b[0m\n'}
+[6.398093] (base_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_msgs/srv/detail/global_path_service__type_support.c.o\x1b[0m\n'}
+[6.421660] (-) TimerEvent: {}
+[6.430338] (base_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_msgs/srv/global_path_service__type_support.cpp.o\x1b[0m\n'}
+[6.444536] (base_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_msgs/msg/local_speeds_point__type_support.cpp.o\x1b[0m\n'}
+[6.521061] (base_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_msgs/msg/local_speeds__type_support.cpp.o\x1b[0m\n'}
+[6.524979] (-) TimerEvent: {}
+[6.525251] (base_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_msgs/srv/detail/pnc_map_service__type_support.c.o\x1b[0m\n'}
+[6.591116] (base_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_msgs/msg/local_trajectory_point__type_support.cpp.o\x1b[0m\n'}
+[6.622982] (base_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_msgs/srv/detail/global_path_service__type_support_c.cpp.o\x1b[0m\n'}
+[6.625109] (-) TimerEvent: {}
+[6.640082] (base_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_msgs/srv/detail/pnc_map_service__type_support_c.cpp.o\x1b[0m\n'}
+[6.651058] (base_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_msgs/msg/detail/pnc_map__type_support.c.o\x1b[0m\n'}
+[6.662915] (base_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_msgs/msg/detail/pnc_map__type_support_c.cpp.o\x1b[0m\n'}
+[6.665493] (base_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_msgs/msg/local_trajectory__type_support.cpp.o\x1b[0m\n'}
+[6.725215] (-) TimerEvent: {}
+[6.733169] (base_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_msgs/msg/detail/referline_point__type_support_c.cpp.o\x1b[0m\n'}
+[6.736341] (base_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_msgs/msg/detail/referline_point__type_support.c.o\x1b[0m\n'}
+[6.758607] (base_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_msgs/msg/obs_info__type_support.cpp.o\x1b[0m\n'}
+[6.794827] (base_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_msgs/msg/plot_info__type_support.cpp.o\x1b[0m\n'}
+[6.828248] (base_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_msgs/msg/detail/referline__type_support.c.o\x1b[0m\n'}
+[6.828533] (-) TimerEvent: {}
+[6.828797] (base_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_msgs/msg/detail/local_speeds_point__type_support.cpp.o\x1b[0m\n'}
+[6.853947] (base_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libbase_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.856904] (base_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_msgs/msg/detail/referline__type_support_c.cpp.o\x1b[0m\n'}
+[6.860946] (base_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_msgs/msg/detail/local_path_point__type_support_c.cpp.o\x1b[0m\n'}
+[6.909231] (base_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_msgs/srv/pnc_map_service__type_support.cpp.o\x1b[0m\n'}
+[6.913403] (base_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_msgs/msg/detail/local_path_point__type_support.c.o\x1b[0m\n'}
+[6.928699] (-) TimerEvent: {}
+[6.943150] (base_msgs) StdoutLine: {'line': b'[ 48%] Built target base_msgs__rosidl_typesupport_c\n'}
+[6.949028] (base_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_msgs/msg/pnc_map__type_support.cpp.o\x1b[0m\n'}
+[6.978347] (base_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_msgs/msg/detail/local_path__type_support.c.o\x1b[0m\n'}
+[6.989245] (base_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_msgs/msg/detail/local_path__type_support_c.cpp.o\x1b[0m\n'}
+[7.029840] (-) TimerEvent: {}
+[7.043953] (base_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_msgs/msg/detail/local_speeds_point__type_support.c.o\x1b[0m\n'}
+[7.129975] (-) TimerEvent: {}
+[7.139995] (base_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_msgs/msg/detail/local_speeds__type_support.c.o\x1b[0m\n'}
+[7.211085] (base_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_msgs/msg/detail/local_trajectory_point__type_support.c.o\x1b[0m\n'}
+[7.230109] (-) TimerEvent: {}
+[7.293557] (base_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_msgs/srv/detail/dds_fastrtps/pnc_map_service__type_support.cpp.o\x1b[0m\n'}
+[7.306675] (base_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_msgs/msg/referline_point__type_support.cpp.o\x1b[0m\n'}
+[7.313834] (base_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_msgs/msg/detail/local_trajectory__type_support.c.o\x1b[0m\n'}
+[7.332955] (-) TimerEvent: {}
+[7.351040] (base_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_msgs/msg/detail/obs_info__type_support.c.o\x1b[0m\n'}
+[7.365617] (base_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_msgs/msg/referline__type_support.cpp.o\x1b[0m\n'}
+[7.414930] (base_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_msgs/msg/detail/local_speeds__type_support.cpp.o\x1b[0m\n'}
+[7.427155] (base_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_msgs/msg/detail/plot_info__type_support.c.o\x1b[0m\n'}
+[7.433096] (-) TimerEvent: {}
+[7.452239] (base_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_msgs/msg/detail/local_speeds_point__type_support_c.cpp.o\x1b[0m\n'}
+[7.470980] (base_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_msgs/msg/detail/local_trajectory_point__type_support.cpp.o\x1b[0m\n'}
+[7.510300] (base_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking C shared library libbase_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.523945] (base_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_msgs/msg/detail/dds_fastrtps/pnc_map__type_support.cpp.o\x1b[0m\n'}
+[7.533721] (base_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_msgs/msg/detail/dds_fastrtps/referline_point__type_support.cpp.o\x1b[0m\n'}
+[7.534032] (-) TimerEvent: {}
+[7.581167] (base_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_msgs/msg/local_path_point__type_support.cpp.o\x1b[0m\n'}
+[7.584125] (base_msgs) StdoutLine: {'line': b'[ 61%] Built target base_msgs__rosidl_typesupport_introspection_c\n'}
+[7.589049] (base_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_msgs/msg/local_path__type_support.cpp.o\x1b[0m\n'}
+[7.637994] (-) TimerEvent: {}
+[7.666054] (base_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_msgs/msg/local_speeds_point__type_support.cpp.o\x1b[0m\n'}
+[7.689701] (base_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_msgs/msg/local_speeds__type_support.cpp.o\x1b[0m\n'}
+[7.738123] (-) TimerEvent: {}
+[7.808092] (base_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_msgs/msg/detail/local_speeds__type_support_c.cpp.o\x1b[0m\n'}
+[7.838284] (-) TimerEvent: {}
+[7.902642] (base_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_msgs/msg/detail/local_trajectory_point__type_support_c.cpp.o\x1b[0m\n'}
+[7.938402] (-) TimerEvent: {}
+[8.041005] (-) TimerEvent: {}
+[8.141249] (base_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_msgs/msg/detail/dds_fastrtps/referline__type_support.cpp.o\x1b[0m\n'}
+[8.141516] (-) TimerEvent: {}
+[8.153613] (base_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_msgs/msg/local_trajectory_point__type_support.cpp.o\x1b[0m\n'}
+[8.172002] (base_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_msgs/msg/detail/dds_fastrtps/local_path_point__type_support.cpp.o\x1b[0m\n'}
+[8.179729] (base_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_msgs/msg/detail/dds_fastrtps/local_path__type_support.cpp.o\x1b[0m\n'}
+[8.193460] (base_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_msgs/msg/detail/local_trajectory__type_support_c.cpp.o\x1b[0m\n'}
+[8.241656] (-) TimerEvent: {}
+[8.342089] (-) TimerEvent: {}
+[8.365251] (base_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_msgs/msg/detail/dds_fastrtps/local_speeds_point__type_support.cpp.o\x1b[0m\n'}
+[8.378655] (base_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_msgs/msg/detail/dds_fastrtps/local_speeds__type_support.cpp.o\x1b[0m\n'}
+[8.421540] (base_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_msgs/msg/detail/local_trajectory__type_support.cpp.o\x1b[0m\n'}
+[8.443615] (-) TimerEvent: {}
+[8.444192] (base_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_msgs/msg/local_trajectory__type_support.cpp.o\x1b[0m\n'}
+[8.474738] (base_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_msgs/msg/detail/dds_fastrtps/local_trajectory_point__type_support.cpp.o\x1b[0m\n'}
+[8.543753] (-) TimerEvent: {}
+[8.577002] (base_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_msgs/msg/detail/dds_fastrtps/local_trajectory__type_support.cpp.o\x1b[0m\n'}
+[8.604488] (base_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_msgs/msg/detail/obs_info__type_support_c.cpp.o\x1b[0m\n'}
+[8.646004] (-) TimerEvent: {}
+[8.712349] (base_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_msgs/msg/detail/plot_info__type_support_c.cpp.o\x1b[0m\n'}
+[8.746171] (-) TimerEvent: {}
+[8.834745] (base_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_msgs/msg/obs_info__type_support.cpp.o\x1b[0m\n'}
+[8.846277] (-) TimerEvent: {}
+[8.947130] (-) TimerEvent: {}
+[8.969918] (base_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_msgs/msg/detail/dds_fastrtps/obs_info__type_support.cpp.o\x1b[0m\n'}
+[9.020322] (base_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_msgs/msg/detail/obs_info__type_support.cpp.o\x1b[0m\n'}
+[9.047264] (-) TimerEvent: {}
+[9.091977] (base_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_msgs/msg/detail/plot_info__type_support.cpp.o\x1b[0m\n'}
+[9.147389] (-) TimerEvent: {}
+[9.174012] (base_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_msgs/msg/plot_info__type_support.cpp.o\x1b[0m\n'}
+[9.192772] (base_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_msgs/msg/detail/dds_fastrtps/plot_info__type_support.cpp.o\x1b[0m\n'}
+[9.247526] (-) TimerEvent: {}
+[9.347922] (-) TimerEvent: {}
+[9.349896] (base_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX shared library libbase_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.448001] (-) TimerEvent: {}
+[9.503051] (base_msgs) StdoutLine: {'line': b'[ 82%] Built target base_msgs__rosidl_typesupport_fastrtps_c\n'}
+[9.548130] (-) TimerEvent: {}
+[9.648446] (-) TimerEvent: {}
+[9.672326] (base_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libbase_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.706288] (base_msgs) StdoutLine: {'line': b'[ 83%] Built target base_msgs__rosidl_typesupport_cpp\n'}
+[9.747313] (base_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libbase_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.748561] (-) TimerEvent: {}
+[9.848809] (-) TimerEvent: {}
+[9.852421] (base_msgs) StdoutLine: {'line': b'[ 84%] Built target base_msgs__rosidl_typesupport_introspection_cpp\n'}
+[9.878916] (base_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libbase_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.948929] (-) TimerEvent: {}
+[9.960136] (base_msgs) StdoutLine: {'line': b'[ 84%] Built target base_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[9.968777] (base_msgs) StdoutLine: {'line': b'[ 84%] Built target base_msgs\n'}
+[9.978012] (base_msgs) StdoutLine: {'line': b'[ 85%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.049066] (-) TimerEvent: {}
+[10.149412] (-) TimerEvent: {}
+[10.249645] (-) TimerEvent: {}
+[10.349889] (-) TimerEvent: {}
+[10.450157] (-) TimerEvent: {}
+[10.550408] (-) TimerEvent: {}
+[10.650652] (-) TimerEvent: {}
+[10.750913] (-) TimerEvent: {}
+[10.851177] (-) TimerEvent: {}
+[10.951413] (-) TimerEvent: {}
+[11.051705] (-) TimerEvent: {}
+[11.151954] (-) TimerEvent: {}
+[11.252190] (-) TimerEvent: {}
+[11.352437] (-) TimerEvent: {}
+[11.452663] (-) TimerEvent: {}
+[11.552890] (-) TimerEvent: {}
+[11.653135] (-) TimerEvent: {}
+[11.753375] (-) TimerEvent: {}
+[11.853617] (-) TimerEvent: {}
+[11.953898] (-) TimerEvent: {}
+[12.054175] (-) TimerEvent: {}
+[12.154445] (-) TimerEvent: {}
+[12.254690] (-) TimerEvent: {}
+[12.354960] (-) TimerEvent: {}
+[12.455231] (-) TimerEvent: {}
+[12.555522] (-) TimerEvent: {}
+[12.655799] (-) TimerEvent: {}
+[12.756053] (-) TimerEvent: {}
+[12.825298] (base_msgs) StdoutLine: {'line': b'[ 85%] Built target base_msgs__py\n'}
+[12.848810] (base_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_py.dir/rosidl_generator_py/base_msgs/srv/_global_path_service_s.c.o\x1b[0m\n'}
+[12.849291] (base_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_py.dir/rosidl_generator_py/base_msgs/srv/_pnc_map_service_s.c.o\x1b[0m\n'}
+[12.849439] (base_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_py.dir/rosidl_generator_py/base_msgs/msg/_pnc_map_s.c.o\x1b[0m\n'}
+[12.850321] (base_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_py.dir/rosidl_generator_py/base_msgs/msg/_referline_point_s.c.o\x1b[0m\n'}
+[12.850496] (base_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_py.dir/rosidl_generator_py/base_msgs/msg/_referline_s.c.o\x1b[0m\n'}
+[12.850802] (base_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_py.dir/rosidl_generator_py/base_msgs/msg/_local_path_point_s.c.o\x1b[0m\n'}
+[12.851255] (base_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_py.dir/rosidl_generator_py/base_msgs/msg/_local_path_s.c.o\x1b[0m\n'}
+[12.851588] (base_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_py.dir/rosidl_generator_py/base_msgs/msg/_local_speeds_point_s.c.o\x1b[0m\n'}
+[12.852266] (base_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_py.dir/rosidl_generator_py/base_msgs/msg/_local_speeds_s.c.o\x1b[0m\n'}
+[12.852870] (base_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_py.dir/rosidl_generator_py/base_msgs/msg/_local_trajectory_point_s.c.o\x1b[0m\n'}
+[12.856183] (-) TimerEvent: {}
+[12.862854] (base_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_py.dir/rosidl_generator_py/base_msgs/msg/_local_trajectory_s.c.o\x1b[0m\n'}
+[12.863911] (base_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_py.dir/rosidl_generator_py/base_msgs/msg/_obs_info_s.c.o\x1b[0m\n'}
+[12.956295] (-) TimerEvent: {}
+[13.041835] (base_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_generator_py.dir/rosidl_generator_py/base_msgs/msg/_plot_info_s.c.o\x1b[0m\n'}
+[13.056407] (-) TimerEvent: {}
+[13.156773] (-) TimerEvent: {}
+[13.184339] (base_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_msgs/libbase_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[13.220525] (base_msgs) StdoutLine: {'line': b'[ 96%] Built target base_msgs__rosidl_generator_py\n'}
+[13.232636] (base_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/base_msgs/_base_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[13.232899] (base_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/base_msgs/_base_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[13.233242] (base_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/base_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/base_msgs/_base_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[13.256892] (-) TimerEvent: {}
+[13.357284] (-) TimerEvent: {}
+[13.377440] (base_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_msgs/base_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.377697] (base_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_msgs/base_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.377794] (base_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_msgs/base_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.410639] (base_msgs) StdoutLine: {'line': b'[100%] Built target base_msgs__rosidl_typesupport_c__pyext\n'}
+[13.410863] (base_msgs) StdoutLine: {'line': b'[100%] Built target base_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[13.410981] (base_msgs) StdoutLine: {'line': b'[100%] Built target base_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[13.415793] (base_msgs) CommandEnded: {'returncode': 0}
+[13.416590] (base_msgs) JobProgress: {'identifier': 'base_msgs', 'progress': 'install'}
+[13.419434] (base_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/abc/planning_with_ros2/build/base_msgs'], 'cwd': '/home/abc/planning_with_ros2/build/base_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'abc'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.102.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1531'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1689'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '109572'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abc/planning_with_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('JOURNAL_STREAM', '8:889'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS2_PLANNING_COURSE_INSTALL', '/home/abc/planning_with_ros2/install'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/abc-G3-3500:@/tmp/.ICE-unix/1657,unix/abc-G3-3500:/tmp/.ICE-unix/1657'), ('INVOCATION_ID', 'd12c1427a6a74384814e7741d54705f0'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-73f3b4a0a422bf73.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LQGG92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c59a044dc2.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/data_plot:/home/abc/planning_with_ros2/install/base_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abc/planning_with_ros2/build/base_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/abc/planning_with_ros2/install/data_plot/lib/python3.10/site-packages:/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/base_msgs:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble')]), 'shell': False}
+[13.422176] (base_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.422410] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/ament_index/resource_index/rosidl_interfaces/base_msgs\n'}
+[13.422487] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs\n'}
+[13.422576] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg\n'}
+[13.422658] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/pnc_map.h\n'}
+[13.422736] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/local_trajectory_point.h\n'}
+[13.422869] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/plot_info.h\n'}
+[13.422953] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.423047] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/local_path.h\n'}
+[13.423121] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail\n'}
+[13.423196] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/obs_info__type_support.h\n'}
+[13.423270] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds__functions.c\n'}
+[13.423371] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds_point__struct.h\n'}
+[13.423495] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__type_support.h\n'}
+[13.423583] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/obs_info__struct.h\n'}
+[13.423671] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__struct.h\n'}
+[13.423755] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds__functions.h\n'}
+[13.423851] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__functions.h\n'}
+[13.423945] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__struct.h\n'}
+[13.424039] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/plot_info__struct.h\n'}
+[13.424100] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__struct.h\n'}
+[13.424178] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__struct.h\n'}
+[13.424305] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/obs_info__functions.h\n'}
+[13.424367] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referlin_point__struct.h\n'}
+[13.424441] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/obs_info__functions.c\n'}
+[13.424516] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds__struct.h\n'}
+[13.424590] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referlin_point__functions.h\n'}
+[13.424664] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__functions.h\n'}
+[13.424771] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory__type_support.h\n'}
+[13.424868] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referlin_point__functions.c\n'}
+[13.424966] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory__functions.h\n'}
+[13.425043] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__type_support.h\n'}
+[13.425118] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referlin_point__type_support.h\n'}
+[13.425191] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__functions.c\n'}
+[13.425264] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__type_support.h\n'}
+[13.425337] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory_point__functions.c\n'}
+[13.425438] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory_point__functions.h\n'}
+[13.425571] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__functions.h\n'}
+[13.425641] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__functions.c\n'}
+[13.425717] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__functions.c\n'}
+[13.425791] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__struct.h\n'}
+[13.425864] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory__struct.h\n'}
+[13.425979] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds_point__type_support.h\n'}
+[13.426068] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds_point__functions.h\n'}
+[13.426149] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory_point__struct.h\n'}
+[13.426219] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__functions.c\n'}
+[13.426294] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/plot_info__functions.c\n'}
+[13.426368] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory__functions.c\n'}
+[13.426441] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds__type_support.h\n'}
+[13.426549] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/plot_info__type_support.h\n'}
+[13.426626] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__functions.c\n'}
+[13.426699] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__type_support.h\n'}
+[13.426772] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/plot_info__functions.h\n'}
+[13.426872] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__type_support.h\n'}
+[13.426980] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__functions.h\n'}
+[13.427072] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory_point__type_support.h\n'}
+[13.427156] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds_point__functions.c\n'}
+[13.427226] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__functions.h\n'}
+[13.427334] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/referline_point.h\n'}
+[13.427418] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/obs_info.h\n'}
+[13.427487] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/referlin_point.h\n'}
+[13.427565] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/referline.h\n'}
+[13.427640] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/local_speeds_point.h\n'}
+[13.427740] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/local_speeds.h\n'}
+[13.427888] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/local_trajectory.h\n'}
+[13.428108] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/local_path_point.h\n'}
+[13.428258] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv\n'}
+[13.428420] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail\n'}
+[13.428551] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__functions.h\n'}
+[13.428690] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__struct.h\n'}
+[13.428819] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__functions.c\n'}
+[13.428954] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__type_support.h\n'}
+[13.429077] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__struct.h\n'}
+[13.429185] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__type_support.h\n'}
+[13.429318] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__functions.c\n'}
+[13.429432] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__functions.h\n'}
+[13.429542] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/pnc_map_service.h\n'}
+[13.429700] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/global_path_service.h\n'}
+[13.429845] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/environment/library_path.sh\n'}
+[13.429988] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/environment/library_path.dsv\n'}
+[13.430115] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/lib/libbase_msgs__rosidl_generator_c.so\n'}
+[13.430200] (base_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/base_msgs/lib/libbase_msgs__rosidl_generator_c.so" to ""\n'}
+[13.430280] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs\n'}
+[13.430357] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg\n'}
+[13.430480] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.430559] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail\n'}
+[13.430634] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/obs_info__rosidl_typesupport_fastrtps_c.h\n'}
+[13.430709] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory_point__rosidl_typesupport_fastrtps_c.h\n'}
+[13.430783] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds__rosidl_typesupport_fastrtps_c.h\n'}
+[13.430858] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds_point__rosidl_typesupport_fastrtps_c.h\n'}
+[13.430987] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/plot_info__rosidl_typesupport_fastrtps_c.h\n'}
+[13.431085] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory__rosidl_typesupport_fastrtps_c.h\n'}
+[13.431149] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__rosidl_typesupport_fastrtps_c.h\n'}
+[13.431207] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__rosidl_typesupport_fastrtps_c.h\n'}
+[13.431284] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__rosidl_typesupport_fastrtps_c.h\n'}
+[13.431360] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__rosidl_typesupport_fastrtps_c.h\n'}
+[13.431434] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__rosidl_typesupport_fastrtps_c.h\n'}
+[13.431509] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv\n'}
+[13.431584] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail\n'}
+[13.431659] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__rosidl_typesupport_fastrtps_c.h\n'}
+[13.431733] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__rosidl_typesupport_fastrtps_c.h\n'}
+[13.431840] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/lib/libbase_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[13.431975] (base_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/base_msgs/lib/libbase_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.432068] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs\n'}
+[13.432145] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg\n'}
+[13.432220] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.432295] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail\n'}
+[13.432405] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory__type_support.c\n'}
+[13.432483] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__rosidl_typesupport_introspection_c.h\n'}
+[13.432558] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds_point__type_support.c\n'}
+[13.432631] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__type_support.c\n'}
+[13.432706] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__rosidl_typesupport_introspection_c.h\n'}
+[13.432781] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds_point__rosidl_typesupport_introspection_c.h\n'}
+[13.432882] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory__rosidl_typesupport_introspection_c.h\n'}
+[13.433033] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds__type_support.c\n'}
+[13.433119] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__type_support.c\n'}
+[13.433195] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__rosidl_typesupport_introspection_c.h\n'}
+[13.433269] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__type_support.c\n'}
+[13.433375] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__rosidl_typesupport_introspection_c.h\n'}
+[13.433458] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory_point__rosidl_typesupport_introspection_c.h\n'}
+[13.433524] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/obs_info__rosidl_typesupport_introspection_c.h\n'}
+[13.433599] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/obs_info__type_support.c\n'}
+[13.433673] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__type_support.c\n'}
+[13.433775] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__type_support.c\n'}
+[13.433859] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory_point__type_support.c\n'}
+[13.433966] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/plot_info__type_support.c\n'}
+[13.434055] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds__rosidl_typesupport_introspection_c.h\n'}
+[13.434133] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__rosidl_typesupport_introspection_c.h\n'}
+[13.434207] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/plot_info__rosidl_typesupport_introspection_c.h\n'}
+[13.434280] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv\n'}
+[13.434353] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail\n'}
+[13.434426] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__type_support.c\n'}
+[13.434526] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__rosidl_typesupport_introspection_c.h\n'}
+[13.434641] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__rosidl_typesupport_introspection_c.h\n'}
+[13.434705] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__type_support.c\n'}
+[13.434761] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/lib/libbase_msgs__rosidl_typesupport_introspection_c.so\n'}
+[13.434866] (base_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/base_msgs/lib/libbase_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.434973] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/lib/libbase_msgs__rosidl_typesupport_c.so\n'}
+[13.435266] (base_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/base_msgs/lib/libbase_msgs__rosidl_typesupport_c.so" to ""\n'}
+[13.435362] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs\n'}
+[13.435458] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg\n'}
+[13.435521] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/local_speeds.hpp\n'}
+[13.435603] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/referlin_point.hpp\n'}
+[13.435701] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/local_path_point.hpp\n'}
+[13.435760] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail\n'}
+[13.435840] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__traits.hpp\n'}
+[13.435900] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory_point__type_support.hpp\n'}
+[13.435996] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/obs_info__builder.hpp\n'}
+[13.436091] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__type_support.hpp\n'}
+[13.436181] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__struct.hpp\n'}
+[13.436269] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/plot_info__struct.hpp\n'}
+[13.436350] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__builder.hpp\n'}
+[13.436443] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/plot_info__builder.hpp\n'}
+[13.436550] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__traits.hpp\n'}
+[13.436654] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds_point__struct.hpp\n'}
+[13.436756] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referlin_point__struct.hpp\n'}
+[13.436845] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory__type_support.hpp\n'}
+[13.436938] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__struct.hpp\n'}
+[13.437021] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds__builder.hpp\n'}
+[13.437115] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__traits.hpp\n'}
+[13.437223] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referlin_point__traits.hpp\n'}
+[13.437312] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory__struct.hpp\n'}
+[13.437402] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referlin_point__builder.hpp\n'}
+[13.437492] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds_point__traits.hpp\n'}
+[13.437582] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds_point__type_support.hpp\n'}
+[13.437671] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__builder.hpp\n'}
+[13.437761] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/plot_info__type_support.hpp\n'}
+[13.437848] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__builder.hpp\n'}
+[13.437948] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/obs_info__type_support.hpp\n'}
+[13.438046] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__builder.hpp\n'}
+[13.438134] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__struct.hpp\n'}
+[13.438226] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__traits.hpp\n'}
+[13.438339] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds__type_support.hpp\n'}
+[13.438432] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/obs_info__traits.hpp\n'}
+[13.438534] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory__builder.hpp\n'}
+[13.438634] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory__traits.hpp\n'}
+[13.438728] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__struct.hpp\n'}
+[13.438837] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__type_support.hpp\n'}
+[13.438938] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__struct.hpp\n'}
+[13.439050] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/plot_info__traits.hpp\n'}
+[13.439146] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory_point__builder.hpp\n'}
+[13.439246] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds__traits.hpp\n'}
+[13.439346] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory_point__traits.hpp\n'}
+[13.439449] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__type_support.hpp\n'}
+[13.439546] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__type_support.hpp\n'}
+[13.439645] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory_point__struct.hpp\n'}
+[13.439747] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/obs_info__struct.hpp\n'}
+[13.439851] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__traits.hpp\n'}
+[13.440005] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referlin_point__type_support.hpp\n'}
+[13.440103] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds_point__builder.hpp\n'}
+[13.440193] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__type_support.hpp\n'}
+[13.440282] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds__struct.hpp\n'}
+[13.440370] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__builder.hpp\n'}
+[13.440455] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/local_path.hpp\n'}
+[13.440557] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[13.440615] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/referline.hpp\n'}
+[13.440691] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/local_trajectory_point.hpp\n'}
+[13.440766] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/obs_info.hpp\n'}
+[13.440847] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/plot_info.hpp\n'}
+[13.440952] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/local_trajectory.hpp\n'}
+[13.441049] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/local_speeds_point.hpp\n'}
+[13.441144] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/pnc_map.hpp\n'}
+[13.441240] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/referline_point.hpp\n'}
+[13.441340] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv\n'}
+[13.441423] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/pnc_map_service.hpp\n'}
+[13.441510] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail\n'}
+[13.441590] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__builder.hpp\n'}
+[13.441678] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__traits.hpp\n'}
+[13.441759] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__type_support.hpp\n'}
+[13.441840] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__struct.hpp\n'}
+[13.441941] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__builder.hpp\n'}
+[13.442034] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__type_support.hpp\n'}
+[13.442147] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__traits.hpp\n'}
+[13.442257] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__struct.hpp\n'}
+[13.442359] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/global_path_service.hpp\n'}
+[13.442542] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs\n'}
+[13.442623] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg\n'}
+[13.442722] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail\n'}
+[13.442780] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.442872] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.442963] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.443040] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.443119] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/obs_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.443207] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.443295] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.443376] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.443475] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.443580] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/dds_fastrtps\n'}
+[13.443673] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.443761] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/plot_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.443845] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referlin_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.443937] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.444032] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv\n'}
+[13.444089] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail\n'}
+[13.444147] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.444238] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.444320] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/dds_fastrtps\n'}
+[13.444406] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/lib/libbase_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.444903] (base_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/base_msgs/lib/libbase_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[13.445015] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs\n'}
+[13.445074] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg\n'}
+[13.445170] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail\n'}
+[13.445229] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory__type_support.cpp\n'}
+[13.445327] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds_point__type_support.cpp\n'}
+[13.445385] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.445474] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__type_support.cpp\n'}
+[13.445564] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__type_support.cpp\n'}
+[13.445641] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/obs_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.445727] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referlin_point__type_support.cpp\n'}
+[13.445828] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referlin_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.445888] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.445984] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds__type_support.cpp\n'}
+[13.446073] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.446164] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/plot_info__type_support.cpp\n'}
+[13.446253] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.446342] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__type_support.cpp\n'}
+[13.446418] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.446501] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/plot_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.446613] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.446716] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__type_support.cpp\n'}
+[13.446820] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/obs_info__type_support.cpp\n'}
+[13.446929] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.447039] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.447143] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__type_support.cpp\n'}
+[13.447249] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_trajectory_point__type_support.cpp\n'}
+[13.447355] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.447458] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv\n'}
+[13.447548] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail\n'}
+[13.447634] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.447718] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__type_support.cpp\n'}
+[13.447805] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__type_support.cpp\n'}
+[13.447888] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.448083] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/lib/libbase_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[13.448593] (base_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/base_msgs/lib/libbase_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.448720] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/lib/libbase_msgs__rosidl_typesupport_cpp.so\n'}
+[13.449077] (base_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/base_msgs/lib/libbase_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[13.449176] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/environment/pythonpath.sh\n'}
+[13.449268] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/environment/pythonpath.dsv\n'}
+[13.449355] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs-0.0.0-py3.10.egg-info\n'}
+[13.449445] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[13.449533] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[13.449616] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[13.449715] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[13.449822] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs\n'}
+[13.449919] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/base_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.450050] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/_base_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[13.450225] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/libbase_msgs__rosidl_generator_py.so\n'}
+[13.450402] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/_base_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[13.450532] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg\n'}
+[13.450625] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_obs_info.py\n'}
+[13.450714] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_referline_s.c\n'}
+[13.450800] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_local_path_s.c\n'}
+[13.450878] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_local_speeds.py\n'}
+[13.450980] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_local_path_point_s.c\n'}
+[13.451079] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_referline_point_s.c\n'}
+[13.451177] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_local_path.py\n'}
+[13.451296] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_local_trajectory_point.py\n'}
+[13.451399] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_local_speeds_s.c\n'}
+[13.451499] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_referline.py\n'}
+[13.451603] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_local_speeds_point.py\n'}
+[13.451704] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_pnc_map.py\n'}
+[13.451817] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/__init__.py\n'}
+[13.451929] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_plot_info_s.c\n'}
+[13.452032] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_local_trajectory_s.c\n'}
+[13.452138] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_referline_point.py\n'}
+[13.452243] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_local_speeds_point_s.c\n'}
+[13.452341] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_local_path_point.py\n'}
+[13.452456] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_pnc_map_s.c\n'}
+[13.452558] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_local_trajectory.py\n'}
+[13.452664] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_local_trajectory_point_s.c\n'}
+[13.452764] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_plot_info.py\n'}
+[13.452869] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_obs_info_s.c\n'}
+[13.452988] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/__init__.py\n'}
+[13.453080] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/base_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.453230] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/_base_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[13.453385] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/srv\n'}
+[13.453465] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/srv/_pnc_map_service.py\n'}
+[13.453553] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/srv/_global_path_service_s.c\n'}
+[13.453636] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/srv/__init__.py\n'}
+[13.453731] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/srv/_global_path_service.py\n'}
+[13.453832] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/srv/_pnc_map_service_s.c\n'}
+[13.453949] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/base_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.457349] (-) TimerEvent: {}
+[13.506492] (base_msgs) StdoutLine: {'line': b"Listing '/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs'...\n"}
+[13.506685] (base_msgs) StdoutLine: {'line': b"Compiling '/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/__init__.py'...\n"}
+[13.506758] (base_msgs) StdoutLine: {'line': b"Listing '/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg'...\n"}
+[13.506818] (base_msgs) StdoutLine: {'line': b"Compiling '/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/__init__.py'...\n"}
+[13.506875] (base_msgs) StdoutLine: {'line': b"Compiling '/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_local_path.py'...\n"}
+[13.506941] (base_msgs) StdoutLine: {'line': b"Compiling '/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_local_path_point.py'...\n"}
+[13.507000] (base_msgs) StdoutLine: {'line': b"Compiling '/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_local_speeds.py'...\n"}
+[13.507056] (base_msgs) StdoutLine: {'line': b"Compiling '/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_local_speeds_point.py'...\n"}
+[13.507111] (base_msgs) StdoutLine: {'line': b"Compiling '/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_local_trajectory.py'...\n"}
+[13.507171] (base_msgs) StdoutLine: {'line': b"Compiling '/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_local_trajectory_point.py'...\n"}
+[13.507225] (base_msgs) StdoutLine: {'line': b"Compiling '/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_obs_info.py'...\n"}
+[13.507297] (base_msgs) StdoutLine: {'line': b"Compiling '/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_plot_info.py'...\n"}
+[13.507352] (base_msgs) StdoutLine: {'line': b"Compiling '/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_pnc_map.py'...\n"}
+[13.507406] (base_msgs) StdoutLine: {'line': b"Compiling '/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_referline.py'...\n"}
+[13.507462] (base_msgs) StdoutLine: {'line': b"Compiling '/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/msg/_referline_point.py'...\n"}
+[13.507517] (base_msgs) StdoutLine: {'line': b"Listing '/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/srv'...\n"}
+[13.507571] (base_msgs) StdoutLine: {'line': b"Compiling '/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/srv/__init__.py'...\n"}
+[13.507630] (base_msgs) StdoutLine: {'line': b"Compiling '/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/srv/_global_path_service.py'...\n"}
+[13.507685] (base_msgs) StdoutLine: {'line': b"Compiling '/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/srv/_pnc_map_service.py'...\n"}
+[13.511690] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/base_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.511968] (base_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/base_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[13.512166] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/base_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.512474] (base_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/base_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[13.512652] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/base_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.512952] (base_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages/base_msgs/base_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[13.513102] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/lib/libbase_msgs__rosidl_generator_py.so\n'}
+[13.513539] (base_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/base_msgs/lib/libbase_msgs__rosidl_generator_py.so" to ""\n'}
+[13.513627] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/srv/GlobalPathService.idl\n'}
+[13.513723] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/srv/PNCMapService.idl\n'}
+[13.513818] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/msg/PNCMap.idl\n'}
+[13.513924] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/msg/ReferlinePoint.idl\n'}
+[13.514032] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/msg/Referline.idl\n'}
+[13.514092] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/msg/LocalPathPoint.idl\n'}
+[13.514151] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/msg/LocalPath.idl\n'}
+[13.514211] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/msg/LocalSpeedsPoint.idl\n'}
+[13.514270] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/msg/LocalSpeeds.idl\n'}
+[13.514388] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/msg/LocalTrajectoryPoint.idl\n'}
+[13.514514] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/msg/LocalTrajectory.idl\n'}
+[13.514574] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/msg/ObsInfo.idl\n'}
+[13.514687] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/msg/PlotInfo.idl\n'}
+[13.514748] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/srv/GlobalPathService.srv\n'}
+[13.514807] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/srv/GlobalPathService_Request.msg\n'}
+[13.514867] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/srv/GlobalPathService_Response.msg\n'}
+[13.515002] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/srv/PNCMapService.srv\n'}
+[13.515065] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/srv/PNCMapService_Request.msg\n'}
+[13.515124] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/srv/PNCMapService_Response.msg\n'}
+[13.515183] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/msg/PNCMap.msg\n'}
+[13.515241] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/msg/ReferlinePoint.msg\n'}
+[13.515300] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/msg/Referline.msg\n'}
+[13.515359] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/msg/LocalPathPoint.msg\n'}
+[13.515418] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/msg/LocalPath.msg\n'}
+[13.515477] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/msg/LocalSpeedsPoint.msg\n'}
+[13.515535] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/msg/LocalSpeeds.msg\n'}
+[13.515657] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/msg/LocalTrajectoryPoint.msg\n'}
+[13.515717] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/msg/LocalTrajectory.msg\n'}
+[13.515782] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/msg/ObsInfo.msg\n'}
+[13.515842] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/msg/PlotInfo.msg\n'}
+[13.515900] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/ament_index/resource_index/package_run_dependencies/base_msgs\n'}
+[13.515974] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/ament_index/resource_index/parent_prefix_path/base_msgs\n'}
+[13.516036] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/environment/ament_prefix_path.sh\n'}
+[13.516094] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/environment/ament_prefix_path.dsv\n'}
+[13.516183] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/environment/path.sh\n'}
+[13.516246] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/environment/path.dsv\n'}
+[13.516305] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/local_setup.bash\n'}
+[13.516364] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/local_setup.sh\n'}
+[13.516423] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/local_setup.zsh\n'}
+[13.516560] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/local_setup.dsv\n'}
+[13.516640] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/package.dsv\n'}
+[13.516700] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/ament_index/resource_index/packages/base_msgs\n'}
+[13.516761] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/export_base_msgs__rosidl_generator_cExport.cmake\n'}
+[13.516820] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/export_base_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.516879] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/export_base_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[13.517006] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/export_base_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[13.517069] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/base_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.517128] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/base_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.517188] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/base_msgs__rosidl_typesupport_cExport.cmake\n'}
+[13.517246] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/base_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.517304] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/export_base_msgs__rosidl_generator_cppExport.cmake\n'}
+[13.517363] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/export_base_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[13.517457] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/export_base_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[13.517517] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/base_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.517576] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/base_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.517634] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/base_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[13.517692] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/base_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.517751] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/export_base_msgs__rosidl_generator_pyExport.cmake\n'}
+[13.517863] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/export_base_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[13.517927] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[13.517991] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.518052] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.518108] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.518192] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.518288] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.518375] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.518520] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/base_msgsConfig.cmake\n'}
+[13.518619] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake/base_msgsConfig-version.cmake\n'}
+[13.518687] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/package.xml\n'}
+[13.519498] (base_msgs) CommandEnded: {'returncode': 0}
+[13.539956] (base_msgs) JobEnded: {'identifier': 'base_msgs', 'rc': 0}
+[13.541044] (data_plot) JobStarted: {'identifier': 'data_plot'}
+[13.544924] (planning) JobStarted: {'identifier': 'planning'}
+[13.557435] (-) TimerEvent: {}
+[13.657673] (-) TimerEvent: {}
+[13.757966] (-) TimerEvent: {}
+[13.838392] (planning) JobProgress: {'identifier': 'planning', 'progress': 'cmake'}
+[13.839631] (planning) JobProgress: {'identifier': 'planning', 'progress': 'build'}
+[13.839817] (planning) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/abc/planning_with_ros2/build/planning', '--', '-j12', '-l12'], 'cwd': '/home/abc/planning_with_ros2/build/planning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'abc'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abc/planning_with_ros2/install/base_msgs/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.102.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1531'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1689'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '109572'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abc/planning_with_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('JOURNAL_STREAM', '8:889'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS2_PLANNING_COURSE_INSTALL', '/home/abc/planning_with_ros2/install'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/abc-G3-3500:@/tmp/.ICE-unix/1657,unix/abc-G3-3500:/tmp/.ICE-unix/1657'), ('INVOCATION_ID', 'd12c1427a6a74384814e7741d54705f0'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-73f3b4a0a422bf73.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LQGG92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c59a044dc2.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/data_plot:/home/abc/planning_with_ros2/install/base_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abc/planning_with_ros2/build/planning'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/abc/planning_with_ros2/install/data_plot/lib/python3.10/site-packages:/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/planning_with_ros2/install/base_msgs:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble')]), 'shell': False}
+[13.858058] (-) TimerEvent: {}
+[13.862631] (planning) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[13.958144] (-) TimerEvent: {}
+[14.058395] (-) TimerEvent: {}
+[14.072765] (planning) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[14.112799] (planning) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[14.116563] (planning) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[14.124484] (planning) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[14.138189] (planning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[14.156067] (planning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[14.158475] (-) TimerEvent: {}
+[14.210793] (planning) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[14.213275] (planning) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[14.254156] (data_plot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/data_plot', 'build', '--build-base', '/home/abc/planning_with_ros2/build/data_plot/build', 'install', '--record', '/home/abc/planning_with_ros2/build/data_plot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/abc/planning_with_ros2/src/data_plot', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'abc', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/abc/planning_with_ros2/install/base_msgs/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/abc', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.102.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1531', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1689', 'BUNDLED_DEBUGPY_PATH': '/home/abc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '109572', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/abc/planning_with_ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'abc', 'JOURNAL_STREAM': '8:889', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'abc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS2_PLANNING_COURSE_INSTALL': '/home/abc/planning_with_ros2/install', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/abc-G3-3500:@/tmp/.ICE-unix/1657,unix/abc-G3-3500:/tmp/.ICE-unix/1657', 'INVOCATION_ID': 'd12c1427a6a74384814e7741d54705f0', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/abc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-73f3b4a0a422bf73.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LQGG92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c59a044dc2.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '2', 'AMENT_PREFIX_PATH': '/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/data_plot:/home/abc/planning_with_ros2/install/base_msgs:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/abc/planning_with_ros2/build/data_plot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/abc/planning_with_ros2/build/data_plot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abc/planning_with_ros2/install/data_plot/lib/python3.10/site-packages:/home/abc/planning_with_ros2/install/data_plot/lib/python3.10/site-packages:/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/abc/planning_with_ros2/install/base_msgs:/home/abc/planning_with_ros2/install/planning'}, 'shell': False}
+[14.258559] (-) TimerEvent: {}
+[14.355858] (planning) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[14.358662] (-) TimerEvent: {}
+[14.436356] (planning) StdoutLine: {'line': b'-- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)\n'}
+[14.458760] (-) TimerEvent: {}
+[14.462045] (planning) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[14.505930] (data_plot) StdoutLine: {'line': b'running egg_info\n'}
+[14.506620] (data_plot) StdoutLine: {'line': b'writing ../../build/data_plot/data_plot.egg-info/PKG-INFO\n'}
+[14.506872] (data_plot) StdoutLine: {'line': b'writing dependency_links to ../../build/data_plot/data_plot.egg-info/dependency_links.txt\n'}
+[14.507069] (data_plot) StdoutLine: {'line': b'writing entry points to ../../build/data_plot/data_plot.egg-info/entry_points.txt\n'}
+[14.507258] (data_plot) StdoutLine: {'line': b'writing requirements to ../../build/data_plot/data_plot.egg-info/requires.txt\n'}
+[14.507365] (data_plot) StdoutLine: {'line': b'writing top-level names to ../../build/data_plot/data_plot.egg-info/top_level.txt\n'}
+[14.508938] (data_plot) StdoutLine: {'line': b"reading manifest file '../../build/data_plot/data_plot.egg-info/SOURCES.txt'\n"}
+[14.509756] (data_plot) StdoutLine: {'line': b"writing manifest file '../../build/data_plot/data_plot.egg-info/SOURCES.txt'\n"}
+[14.509926] (data_plot) StdoutLine: {'line': b'running build\n'}
+[14.510005] (data_plot) StdoutLine: {'line': b'running build_py\n'}
+[14.510145] (data_plot) StdoutLine: {'line': b'running install\n'}
+[14.510378] (data_plot) StdoutLine: {'line': b'running install_lib\n'}
+[14.511449] (data_plot) StdoutLine: {'line': b'running install_data\n'}
+[14.511605] (data_plot) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.513202] (data_plot) StdoutLine: {'line': b"removing '/home/abc/planning_with_ros2/install/data_plot/lib/python3.10/site-packages/data_plot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[14.513480] (data_plot) StdoutLine: {'line': b'Copying ../../build/data_plot/data_plot.egg-info to /home/abc/planning_with_ros2/install/data_plot/lib/python3.10/site-packages/data_plot-0.0.0-py3.10.egg-info\n'}
+[14.514196] (data_plot) StdoutLine: {'line': b'running install_scripts\n'}
+[14.535138] (data_plot) StdoutLine: {'line': b'Installing data_plot script to /home/abc/planning_with_ros2/install/data_plot/lib/data_plot\n'}
+[14.535434] (data_plot) StdoutLine: {'line': b"writing list of installed files to '/home/abc/planning_with_ros2/build/data_plot/install.log'\n"}
+[14.558894] (-) TimerEvent: {}
+[14.563388] (data_plot) CommandEnded: {'returncode': 0}
+[14.571011] (data_plot) JobEnded: {'identifier': 'data_plot', 'rc': 0}
+[14.594782] (planning) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[14.622836] (planning) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[14.658979] (-) TimerEvent: {}
+[14.684951] (planning) StdoutLine: {'line': b'-- Found base_msgs: 0.0.0 (/home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake)\n'}
+[14.759084] (-) TimerEvent: {}
+[14.788176] (planning) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[14.859192] (-) TimerEvent: {}
+[14.872592] (planning) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[14.874084] (planning) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/abc/planning_with_ros2/src/planning/src/common/config_reader;/home/abc/planning_with_ros2/src/planning/src/common/math;/home/abc/planning_with_ros2/src/planning/src/decision_center;/home/abc/planning_with_ros2/src/planning/src/pnc_map_creator;/home/abc/planning_with_ros2/src/planning/src/pnc_map_creator/pnc_map_straight;/home/abc/planning_with_ros2/src/planning/src/pnc_map_creator/pnc_map_sturn;/home/abc/planning_with_ros2/src/planning/src/global_planner;/home/abc/planning_with_ros2/src/planning/src/global_planner/global_planner_normal;/home/abc/planning_with_ros2/src/planning/src/local_planner;/home/abc/planning_with_ros2/src/planning/src/local_planner/local_path;/home/abc/planning_with_ros2/src/planning/src/local_planner/local_speeds;/home/abc/planning_with_ros2/src/planning/src/reference_line;/home/abc/planning_with_ros2/src/planning/src/test/osqp_test;/home/abc/planning_with_ros2/src/planning/src/vehicle_info;/home/abc/planning_with_ros2/src/planning/src/vehicle_info/main_car;/home/abc/planning_with_ros2/src/planning/src/vehicle_info/obs_car;/home/abc/planning_with_ros2/src/planning/src/planning_process;/home/abc/planning_with_ros2/src/planning/src/move_cmd\n'}
+[14.874258] (planning) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[14.875151] (planning) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[14.876432] (planning) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.877256] (planning) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[14.881537] (planning) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[14.881712] (planning) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[14.882424] (planning) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.885523] (planning) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[14.959281] (-) TimerEvent: {}
+[15.025791] (planning) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[15.057723] (planning) StdoutLine: {'line': b'-- Build files have been written to: /home/abc/planning_with_ros2/build/planning\n'}
+[15.059357] (-) TimerEvent: {}
+[15.092425] (planning) StdoutLine: {'line': b'[  5%] Built target config_reader\n'}
+[15.095890] (planning) StdoutLine: {'line': b'[ 10%] Built target newton_test\n'}
+[15.097023] (planning) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object src/test/CMakeFiles/osqp_test.dir/osqp_test/osqp_test.cpp.o\x1b[0m\n'}
+[15.098163] (planning) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object src/common/CMakeFiles/mathlibs.dir/math/curve.cpp.o\x1b[0m\n'}
+[15.111398] (planning) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object src/global_planner/CMakeFiles/global_planner.dir/global_planner_normal/global_planner_normal.cpp.o\x1b[0m\n'}
+[15.112464] (planning) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_straight/pnc_map_creator_straight.cpp.o\x1b[0m\n'}
+[15.112677] (planning) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_sturn/pnc_map_creator_sturn.cpp.o\x1b[0m\n'}
+[15.159484] (-) TimerEvent: {}
+[15.259807] (-) TimerEvent: {}
+[15.360065] (-) TimerEvent: {}
+[15.460399] (-) TimerEvent: {}
+[15.560795] (-) TimerEvent: {}
+[15.661199] (-) TimerEvent: {}
+[15.761590] (-) TimerEvent: {}
+[15.861993] (-) TimerEvent: {}
+[15.962423] (-) TimerEvent: {}
+[16.062813] (-) TimerEvent: {}
+[16.163216] (-) TimerEvent: {}
+[16.263623] (-) TimerEvent: {}
+[16.363981] (-) TimerEvent: {}
+[16.464326] (-) TimerEvent: {}
+[16.564665] (-) TimerEvent: {}
+[16.664983] (-) TimerEvent: {}
+[16.765378] (-) TimerEvent: {}
+[16.865766] (-) TimerEvent: {}
+[16.966163] (-) TimerEvent: {}
+[17.066563] (-) TimerEvent: {}
+[17.166994] (-) TimerEvent: {}
+[17.267404] (-) TimerEvent: {}
+[17.367935] (-) TimerEvent: {}
+[17.468333] (-) TimerEvent: {}
+[17.568717] (-) TimerEvent: {}
+[17.669116] (-) TimerEvent: {}
+[17.769595] (-) TimerEvent: {}
+[17.870078] (-) TimerEvent: {}
+[17.970505] (-) TimerEvent: {}
+[18.070945] (-) TimerEvent: {}
+[18.171354] (-) TimerEvent: {}
+[18.232343] (planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abc/planning_with_ros2/src/planning/src/common/math/curve.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic int Planning::Curve::find_match_point(const Referline&, const PoseStamped&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.232811] (planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abc/planning_with_ros2/src/planning/src/common/math/curve.cpp:115:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpath\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.232981] (planning) StderrLine: {'line': b'  115 |     int Curve::find_match_point(\x1b[01;35m\x1b[Kconst Referline &path\x1b[m\x1b[K, const PoseStamped &target_point)\n'}
+[18.233112] (planning) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[18.233229] (planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abc/planning_with_ros2/src/planning/src/common/math/curve.cpp:115:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktarget_point\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.233352] (planning) StderrLine: {'line': b'  115 |     int Curve::find_match_point(const Referline &path, \x1b[01;35m\x1b[Kconst PoseStamped &target_point\x1b[m\x1b[K)\n'}
+[18.233472] (planning) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.233592] (planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abc/planning_with_ros2/src/planning/src/common/math/curve.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic void Planning::Curve::find_projection_point(const Referline&, double&, double&, double&, double&, double&, double&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.233713] (planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abc/planning_with_ros2/src/planning/src/common/math/curve.cpp:120:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpath\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.233837] (planning) StderrLine: {'line': b'  120 |     void Curve::find_projection_point(\x1b[01;35m\x1b[Kconst Referline &path\x1b[m\x1b[K,\n'}
+[18.233973] (planning) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[18.234097] (planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abc/planning_with_ros2/src/planning/src/common/math/curve.cpp:121:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.234216] (planning) StderrLine: {'line': b'  121 |                                       \x1b[01;35m\x1b[Kdouble &rs\x1b[m\x1b[K, double &rx, double &ry,\n'}
+[18.234332] (planning) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~~^~\x1b[m\x1b[K\n'}
+[18.234449] (planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abc/planning_with_ros2/src/planning/src/common/math/curve.cpp:121:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.234571] (planning) StderrLine: {'line': b'  121 |                                       double &rs, \x1b[01;35m\x1b[Kdouble &rx\x1b[m\x1b[K, double &ry,\n'}
+[18.234690] (planning) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K~~~~~~~~^~\x1b[m\x1b[K\n'}
+[18.234804] (planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abc/planning_with_ros2/src/planning/src/common/math/curve.cpp:121:71:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kry\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.234954] (planning) StderrLine: {'line': b'  121 |                                       double &rs, double &rx, \x1b[01;35m\x1b[Kdouble &ry\x1b[m\x1b[K,\n'}
+[18.235091] (planning) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~~~~^~\x1b[m\x1b[K\n'}
+[18.235211] (planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abc/planning_with_ros2/src/planning/src/common/math/curve.cpp:122:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krtheta\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.235336] (planning) StderrLine: {'line': b'  122 |                                       \x1b[01;35m\x1b[Kdouble &rtheta\x1b[m\x1b[K, double &rkappa, double &dkappa)\n'}
+[18.235457] (planning) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[18.235578] (planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abc/planning_with_ros2/src/planning/src/common/math/curve.cpp:122:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krkappa\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.235711] (planning) StderrLine: {'line': b'  122 |                                       double &rtheta, \x1b[01;35m\x1b[Kdouble &rkappa\x1b[m\x1b[K, double &dkappa)\n'}
+[18.235828] (planning) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[18.235957] (planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abc/planning_with_ros2/src/planning/src/common/math/curve.cpp:122:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdkappa\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.236097] (planning) StderrLine: {'line': b'  122 |                                       double &rtheta, double &rkappa, \x1b[01;35m\x1b[Kdouble &dkappa\x1b[m\x1b[K)\n'}
+[18.236213] (planning) StderrLine: {'line': b'      |                                                                       \x1b[01;35m\x1b[K~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[18.271474] (-) TimerEvent: {}
+[18.371857] (-) TimerEvent: {}
+[18.472280] (-) TimerEvent: {}
+[18.572687] (-) TimerEvent: {}
+[18.673067] (-) TimerEvent: {}
+[18.773488] (-) TimerEvent: {}
+[18.860778] (planning) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX shared library libmathlibs.so\x1b[0m\n'}
+[18.873620] (-) TimerEvent: {}
+[18.974039] (-) TimerEvent: {}
+[19.019767] (planning) StdoutLine: {'line': b'[ 28%] Built target mathlibs\n'}
+[19.052282] (planning) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object src/vehicle_info/CMakeFiles/vehicle_info.dir/main_car/main_car_info.cpp.o\x1b[0m\n'}
+[19.052624] (planning) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object src/vehicle_info/CMakeFiles/vehicle_info.dir/obs_car/obs_car_info.cpp.o\x1b[0m\n'}
+[19.053989] (planning) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object src/reference_line/CMakeFiles/reference_line.dir/reference_line_creator.cpp.o\x1b[0m\n'}
+[19.054230] (planning) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object src/reference_line/CMakeFiles/reference_line.dir/reference_line_smoother.cpp.o\x1b[0m\n'}
+[19.074838] (-) TimerEvent: {}
+[19.175540] (-) TimerEvent: {}
+[19.257371] (planning) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libglobal_planner.so\x1b[0m\n'}
+[19.275664] (-) TimerEvent: {}
+[19.380102] (-) TimerEvent: {}
+[19.464098] (planning) StdoutLine: {'line': b'[ 41%] Built target global_planner\n'}
+[19.480185] (-) TimerEvent: {}
+[19.491232] (planning) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object src/global_planner/CMakeFiles/global_path_server.dir/global_path_server.cpp.o\x1b[0m\n'}
+[19.580293] (-) TimerEvent: {}
+[19.680610] (-) TimerEvent: {}
+[19.780895] (-) TimerEvent: {}
+[19.881191] (-) TimerEvent: {}
+[19.981531] (-) TimerEvent: {}
+[20.081842] (-) TimerEvent: {}
+[20.180408] (planning) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libpnc_map_creator.so\x1b[0m\n'}
+[20.181953] (-) TimerEvent: {}
+[20.282362] (-) TimerEvent: {}
+[20.382943] (-) TimerEvent: {}
+[20.396109] (planning) StdoutLine: {'line': b'[ 46%] Built target pnc_map_creator\n'}
+[20.419981] (planning) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_server.dir/pnc_map_server.cpp.o\x1b[0m\n'}
+[20.483141] (-) TimerEvent: {}
+[20.583515] (-) TimerEvent: {}
+[20.683924] (-) TimerEvent: {}
+[20.784379] (-) TimerEvent: {}
+[20.884852] (-) TimerEvent: {}
+[20.985502] (-) TimerEvent: {}
+[21.029798] (planning) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX executable osqp_test\x1b[0m\n'}
+[21.085623] (-) TimerEvent: {}
+[21.186066] (-) TimerEvent: {}
+[21.202801] (planning) StdoutLine: {'line': b'[ 51%] Built target osqp_test\n'}
+[21.286165] (-) TimerEvent: {}
+[21.386511] (-) TimerEvent: {}
+[21.486963] (-) TimerEvent: {}
+[21.587283] (-) TimerEvent: {}
+[21.687683] (-) TimerEvent: {}
+[21.788106] (-) TimerEvent: {}
+[21.888543] (-) TimerEvent: {}
+[21.988958] (-) TimerEvent: {}
+[22.089380] (-) TimerEvent: {}
+[22.189762] (-) TimerEvent: {}
+[22.290137] (-) TimerEvent: {}
+[22.390448] (-) TimerEvent: {}
+[22.490774] (-) TimerEvent: {}
+[22.591161] (-) TimerEvent: {}
+[22.691485] (-) TimerEvent: {}
+[22.791838] (-) TimerEvent: {}
+[22.892273] (-) TimerEvent: {}
+[22.992800] (-) TimerEvent: {}
+[23.093268] (-) TimerEvent: {}
+[23.193641] (-) TimerEvent: {}
+[23.293974] (-) TimerEvent: {}
+[23.394318] (-) TimerEvent: {}
+[23.494702] (-) TimerEvent: {}
+[23.595054] (-) TimerEvent: {}
+[23.695384] (-) TimerEvent: {}
+[23.795781] (-) TimerEvent: {}
+[23.896243] (-) TimerEvent: {}
+[23.996733] (-) TimerEvent: {}
+[24.097848] (-) TimerEvent: {}
+[24.198249] (-) TimerEvent: {}
+[24.298640] (-) TimerEvent: {}
+[24.399010] (-) TimerEvent: {}
+[24.499428] (-) TimerEvent: {}
+[24.599816] (-) TimerEvent: {}
+[24.700297] (-) TimerEvent: {}
+[24.800666] (-) TimerEvent: {}
+[24.890237] (planning) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libvehicle_info.so\x1b[0m\n'}
+[24.900782] (-) TimerEvent: {}
+[25.001204] (-) TimerEvent: {}
+[25.059610] (planning) StdoutLine: {'line': b'[ 53%] Built target vehicle_info\n'}
+[25.085165] (planning) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object src/decision_center/CMakeFiles/decision_center.dir/decision_center.cpp.o\x1b[0m\n'}
+[25.085485] (planning) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object src/move_cmd/CMakeFiles/car_move_cmd.dir/car_move_cmd.cpp.o\x1b[0m\n'}
+[25.085695] (planning) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object src/move_cmd/CMakeFiles/obs_move_cmd.dir/obs_move_cmd.cpp.o\x1b[0m\n'}
+[25.101308] (-) TimerEvent: {}
+[25.204138] (-) TimerEvent: {}
+[25.304520] (-) TimerEvent: {}
+[25.404876] (-) TimerEvent: {}
+[25.505555] (-) TimerEvent: {}
+[25.606787] (-) TimerEvent: {}
+[25.707160] (-) TimerEvent: {}
+[25.807452] (-) TimerEvent: {}
+[25.907810] (-) TimerEvent: {}
+[26.008216] (-) TimerEvent: {}
+[26.108573] (-) TimerEvent: {}
+[26.209003] (-) TimerEvent: {}
+[26.309436] (-) TimerEvent: {}
+[26.409861] (-) TimerEvent: {}
+[26.510215] (-) TimerEvent: {}
+[26.610667] (-) TimerEvent: {}
+[26.711115] (-) TimerEvent: {}
+[26.811476] (-) TimerEvent: {}
+[26.911866] (-) TimerEvent: {}
+[27.013691] (-) TimerEvent: {}
+[27.114292] (-) TimerEvent: {}
+[27.185898] (planning) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libreference_line.so\x1b[0m\n'}
+[27.214422] (-) TimerEvent: {}
+[27.314814] (-) TimerEvent: {}
+[27.415320] (-) TimerEvent: {}
+[27.419991] (planning) StdoutLine: {'line': b'[ 64%] Built target reference_line\n'}
+[27.515427] (-) TimerEvent: {}
+[27.615794] (-) TimerEvent: {}
+[27.716233] (-) TimerEvent: {}
+[27.816655] (-) TimerEvent: {}
+[27.917095] (-) TimerEvent: {}
+[28.017501] (-) TimerEvent: {}
+[28.117918] (-) TimerEvent: {}
+[28.218292] (-) TimerEvent: {}
+[28.318678] (-) TimerEvent: {}
+[28.419076] (-) TimerEvent: {}
+[28.519445] (-) TimerEvent: {}
+[28.619797] (-) TimerEvent: {}
+[28.720224] (-) TimerEvent: {}
+[28.820628] (-) TimerEvent: {}
+[28.921032] (-) TimerEvent: {}
+[28.929403] (planning) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable pnc_map_server\x1b[0m\n'}
+[29.021181] (-) TimerEvent: {}
+[29.121597] (-) TimerEvent: {}
+[29.221989] (-) TimerEvent: {}
+[29.300833] (planning) StdoutLine: {'line': b'[ 66%] Built target pnc_map_server\n'}
+[29.322114] (-) TimerEvent: {}
+[29.422515] (-) TimerEvent: {}
+[29.522897] (-) TimerEvent: {}
+[29.623236] (-) TimerEvent: {}
+[29.627481] (planning) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX executable car_move_cmd\x1b[0m\n'}
+[29.638267] (planning) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libdecision_center.so\x1b[0m\n'}
+[29.723349] (-) TimerEvent: {}
+[29.782178] (planning) StdoutLine: {'line': b'[ 71%] Built target decision_center\n'}
+[29.790301] (planning) StdoutLine: {'line': b'[ 71%] Built target car_move_cmd\n'}
+[29.821427] (planning) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_planner.cpp.o\x1b[0m\n'}
+[29.822212] (planning) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_planner.cpp.o\x1b[0m\n'}
+[29.823455] (-) TimerEvent: {}
+[29.923820] (planning) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX executable global_path_server\x1b[0m\n'}
+[29.924114] (-) TimerEvent: {}
+[29.996371] (planning) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX executable obs_move_cmd\x1b[0m\n'}
+[30.024288] (-) TimerEvent: {}
+[30.124675] (-) TimerEvent: {}
+[30.190130] (planning) StdoutLine: {'line': b'[ 82%] Built target obs_move_cmd\n'}
+[30.224820] (-) TimerEvent: {}
+[30.320405] (planning) StdoutLine: {'line': b'[ 82%] Built target global_path_server\n'}
+[30.324945] (-) TimerEvent: {}
+[30.425301] (-) TimerEvent: {}
+[30.525705] (-) TimerEvent: {}
+[30.626048] (-) TimerEvent: {}
+[30.726335] (-) TimerEvent: {}
+[30.826655] (-) TimerEvent: {}
+[30.926926] (-) TimerEvent: {}
+[31.027190] (-) TimerEvent: {}
+[31.127456] (-) TimerEvent: {}
+[31.227713] (-) TimerEvent: {}
+[31.328018] (-) TimerEvent: {}
+[31.428318] (-) TimerEvent: {}
+[31.528575] (-) TimerEvent: {}
+[31.628871] (-) TimerEvent: {}
+[31.729190] (-) TimerEvent: {}
+[31.829465] (-) TimerEvent: {}
+[31.929739] (-) TimerEvent: {}
+[32.030033] (-) TimerEvent: {}
+[32.130303] (-) TimerEvent: {}
+[32.230615] (-) TimerEvent: {}
+[32.330968] (-) TimerEvent: {}
+[32.431242] (-) TimerEvent: {}
+[32.531549] (-) TimerEvent: {}
+[32.631885] (-) TimerEvent: {}
+[32.732161] (-) TimerEvent: {}
+[32.832442] (-) TimerEvent: {}
+[32.932725] (-) TimerEvent: {}
+[33.033013] (-) TimerEvent: {}
+[33.133282] (-) TimerEvent: {}
+[33.233594] (-) TimerEvent: {}
+[33.333889] (-) TimerEvent: {}
+[33.434176] (-) TimerEvent: {}
+[33.534472] (-) TimerEvent: {}
+[33.634742] (-) TimerEvent: {}
+[33.735026] (-) TimerEvent: {}
+[33.835329] (-) TimerEvent: {}
+[33.935586] (-) TimerEvent: {}
+[34.035899] (-) TimerEvent: {}
+[34.136251] (-) TimerEvent: {}
+[34.236509] (-) TimerEvent: {}
+[34.278106] (planning) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library liblocal_planner.so\x1b[0m\n'}
+[34.336602] (-) TimerEvent: {}
+[34.392798] (planning) StdoutLine: {'line': b'[ 92%] Built target local_planner\n'}
+[34.421137] (planning) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o\x1b[0m\n'}
+[34.421834] (planning) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object src/planning_process/CMakeFiles/planning_process.dir/planning_process.cpp.o\x1b[0m\n'}
+[34.436709] (-) TimerEvent: {}
+[34.536994] (-) TimerEvent: {}
+[34.637326] (-) TimerEvent: {}
+[34.737670] (-) TimerEvent: {}
+[34.837992] (-) TimerEvent: {}
+[34.938355] (-) TimerEvent: {}
+[35.038693] (-) TimerEvent: {}
+[35.138977] (-) TimerEvent: {}
+[35.239321] (-) TimerEvent: {}
+[35.339703] (-) TimerEvent: {}
+[35.440052] (-) TimerEvent: {}
+[35.540398] (-) TimerEvent: {}
+[35.640767] (-) TimerEvent: {}
+[35.741134] (-) TimerEvent: {}
+[35.841481] (-) TimerEvent: {}
+[35.941828] (-) TimerEvent: {}
+[36.042189] (-) TimerEvent: {}
+[36.142559] (-) TimerEvent: {}
+[36.242898] (-) TimerEvent: {}
+[36.343247] (-) TimerEvent: {}
+[36.443599] (-) TimerEvent: {}
+[36.543935] (-) TimerEvent: {}
+[36.644291] (-) TimerEvent: {}
+[36.744633] (-) TimerEvent: {}
+[36.844968] (-) TimerEvent: {}
+[36.945288] (-) TimerEvent: {}
+[37.045648] (-) TimerEvent: {}
+[37.145959] (-) TimerEvent: {}
+[37.246224] (-) TimerEvent: {}
+[37.346487] (-) TimerEvent: {}
+[37.446791] (-) TimerEvent: {}
+[37.547083] (-) TimerEvent: {}
+[37.647373] (-) TimerEvent: {}
+[37.747731] (-) TimerEvent: {}
+[37.847978] (-) TimerEvent: {}
+[37.948290] (-) TimerEvent: {}
+[38.048666] (-) TimerEvent: {}
+[38.149002] (-) TimerEvent: {}
+[38.249316] (-) TimerEvent: {}
+[38.349622] (-) TimerEvent: {}
+[38.449938] (-) TimerEvent: {}
+[38.550210] (-) TimerEvent: {}
+[38.650494] (-) TimerEvent: {}
+[38.750756] (-) TimerEvent: {}
+[38.851026] (-) TimerEvent: {}
+[38.951301] (-) TimerEvent: {}
+[39.051646] (-) TimerEvent: {}
+[39.151962] (-) TimerEvent: {}
+[39.252234] (-) TimerEvent: {}
+[39.352540] (-) TimerEvent: {}
+[39.452820] (-) TimerEvent: {}
+[39.553119] (-) TimerEvent: {}
+[39.653441] (-) TimerEvent: {}
+[39.753804] (-) TimerEvent: {}
+[39.854124] (-) TimerEvent: {}
+[39.954415] (-) TimerEvent: {}
+[40.054720] (-) TimerEvent: {}
+[40.155003] (-) TimerEvent: {}
+[40.255287] (-) TimerEvent: {}
+[40.355533] (-) TimerEvent: {}
+[40.455837] (-) TimerEvent: {}
+[40.556103] (-) TimerEvent: {}
+[40.656385] (-) TimerEvent: {}
+[40.756691] (-) TimerEvent: {}
+[40.856963] (-) TimerEvent: {}
+[40.957240] (-) TimerEvent: {}
+[41.057544] (-) TimerEvent: {}
+[41.157814] (-) TimerEvent: {}
+[41.258102] (-) TimerEvent: {}
+[41.358387] (-) TimerEvent: {}
+[41.458676] (-) TimerEvent: {}
+[41.558999] (-) TimerEvent: {}
+[41.659335] (-) TimerEvent: {}
+[41.759659] (-) TimerEvent: {}
+[41.859926] (-) TimerEvent: {}
+[41.960191] (-) TimerEvent: {}
+[42.060487] (-) TimerEvent: {}
+[42.160745] (-) TimerEvent: {}
+[42.261006] (-) TimerEvent: {}
+[42.361292] (-) TimerEvent: {}
+[42.461556] (-) TimerEvent: {}
+[42.561868] (-) TimerEvent: {}
+[42.662180] (-) TimerEvent: {}
+[42.762484] (-) TimerEvent: {}
+[42.862809] (-) TimerEvent: {}
+[42.963100] (-) TimerEvent: {}
+[43.063389] (-) TimerEvent: {}
+[43.163646] (-) TimerEvent: {}
+[43.263897] (-) TimerEvent: {}
+[43.364181] (-) TimerEvent: {}
+[43.464428] (-) TimerEvent: {}
+[43.564678] (-) TimerEvent: {}
+[43.664937] (-) TimerEvent: {}
+[43.765178] (-) TimerEvent: {}
+[43.865440] (-) TimerEvent: {}
+[43.965685] (-) TimerEvent: {}
+[44.065977] (-) TimerEvent: {}
+[44.166277] (-) TimerEvent: {}
+[44.266632] (-) TimerEvent: {}
+[44.366929] (-) TimerEvent: {}
+[44.467173] (-) TimerEvent: {}
+[44.567411] (-) TimerEvent: {}
+[44.667643] (-) TimerEvent: {}
+[44.767880] (-) TimerEvent: {}
+[44.868133] (-) TimerEvent: {}
+[44.968386] (-) TimerEvent: {}
+[45.068681] (-) TimerEvent: {}
+[45.168991] (-) TimerEvent: {}
+[45.269275] (-) TimerEvent: {}
+[45.369526] (-) TimerEvent: {}
+[45.469807] (-) TimerEvent: {}
+[45.570053] (-) TimerEvent: {}
+[45.670294] (-) TimerEvent: {}
+[45.770534] (-) TimerEvent: {}
+[45.870822] (-) TimerEvent: {}
+[45.971085] (-) TimerEvent: {}
+[46.071391] (-) TimerEvent: {}
+[46.171678] (-) TimerEvent: {}
+[46.271967] (-) TimerEvent: {}
+[46.372267] (-) TimerEvent: {}
+[46.472558] (-) TimerEvent: {}
+[46.572898] (-) TimerEvent: {}
+[46.673231] (-) TimerEvent: {}
+[46.773577] (-) TimerEvent: {}
+[46.873939] (-) TimerEvent: {}
+[46.974304] (-) TimerEvent: {}
+[47.074600] (-) TimerEvent: {}
+[47.174862] (-) TimerEvent: {}
+[47.275124] (-) TimerEvent: {}
+[47.375376] (-) TimerEvent: {}
+[47.475640] (-) TimerEvent: {}
+[47.575921] (-) TimerEvent: {}
+[47.676178] (-) TimerEvent: {}
+[47.776434] (-) TimerEvent: {}
+[47.876812] (-) TimerEvent: {}
+[47.977083] (-) TimerEvent: {}
+[48.077358] (-) TimerEvent: {}
+[48.177678] (-) TimerEvent: {}
+[48.277989] (-) TimerEvent: {}
+[48.336072] (planning) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable planning_process\x1b[0m\n'}
+[48.378099] (-) TimerEvent: {}
+[48.478389] (-) TimerEvent: {}
+[48.578688] (-) TimerEvent: {}
+[48.679002] (-) TimerEvent: {}
+[48.779334] (-) TimerEvent: {}
+[48.879610] (-) TimerEvent: {}
+[48.979944] (-) TimerEvent: {}
+[49.064352] (planning) StdoutLine: {'line': b'[100%] Built target planning_process\n'}
+[49.068309] (planning) CommandEnded: {'returncode': 0}
+[49.069494] (planning) JobProgress: {'identifier': 'planning', 'progress': 'install'}
+[49.069906] (planning) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/abc/planning_with_ros2/build/planning'], 'cwd': '/home/abc/planning_with_ros2/build/planning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'abc'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abc/planning_with_ros2/install/base_msgs/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.102.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1531'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1689'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '109572'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abc/planning_with_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('JOURNAL_STREAM', '8:889'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS2_PLANNING_COURSE_INSTALL', '/home/abc/planning_with_ros2/install'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/abc-G3-3500:@/tmp/.ICE-unix/1657,unix/abc-G3-3500:/tmp/.ICE-unix/1657'), ('INVOCATION_ID', 'd12c1427a6a74384814e7741d54705f0'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-73f3b4a0a422bf73.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LQGG92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c59a044dc2.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/data_plot:/home/abc/planning_with_ros2/install/base_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abc/planning_with_ros2/build/planning'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/abc/planning_with_ros2/install/data_plot/lib/python3.10/site-packages:/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/planning_with_ros2/install/base_msgs:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble')]), 'shell': False}
+[49.072803] (planning) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[49.073159] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/lib/libconfig_reader.so\n'}
+[49.073618] (planning) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/planning/lib/libmathlibs.so\n'}
+[49.074053] (planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/libmathlibs.so" to ""\n'}
+[49.074312] (planning) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/planning/lib/libdecision_center.so\n'}
+[49.074628] (planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/libdecision_center.so" to ""\n'}
+[49.074999] (planning) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/planning/lib/libpnc_map_creator.so\n'}
+[49.075610] (planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/libpnc_map_creator.so" to ""\n'}
+[49.075762] (planning) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/planning/lib/planning/pnc_map_server\n'}
+[49.077525] (planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/planning/pnc_map_server" to ""\n'}
+[49.077857] (planning) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/planning/lib/libglobal_planner.so\n'}
+[49.078303] (planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/libglobal_planner.so" to ""\n'}
+[49.078453] (planning) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/planning/lib/planning/global_path_server\n'}
+[49.080007] (-) TimerEvent: {}
+[49.080160] (planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/planning/global_path_server" to ""\n'}
+[49.080370] (planning) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/planning/lib/liblocal_planner.so\n'}
+[49.080722] (planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/liblocal_planner.so" to ""\n'}
+[49.081033] (planning) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/planning/lib/libreference_line.so\n'}
+[49.082249] (planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/libreference_line.so" to ""\n'}
+[49.082595] (planning) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/planning/lib/planning/osqp_test\n'}
+[49.083152] (planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/planning/osqp_test" to ""\n'}
+[49.083314] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/lib/planning/newton_test\n'}
+[49.083732] (planning) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/planning/lib/libvehicle_info.so\n'}
+[49.084197] (planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/libvehicle_info.so" to ""\n'}
+[49.084738] (planning) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/planning/lib/planning/planning_process\n'}
+[49.089264] (planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/planning/planning_process" to ""\n'}
+[49.089618] (planning) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/planning/lib/planning/car_move_cmd\n'}
+[49.090038] (planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/planning/car_move_cmd" to ""\n'}
+[49.090208] (planning) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/planning/lib/planning/obs_move_cmd\n'}
+[49.090564] (planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/planning/obs_move_cmd" to ""\n'}
+[49.090696] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/config\n'}
+[49.090943] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/config/planning_static_obs_config.yaml\n'}
+[49.091081] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/launch\n'}
+[49.091189] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/launch/planning_launch.py\n'}
+[49.091341] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf\n'}
+[49.091476] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/main_car\n'}
+[49.091588] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/main_car/car_camera.xacro\n'}
+[49.091729] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/main_car/car_base.xacro\n'}
+[49.091844] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/main_car/car_radar.xacro\n'}
+[49.091957] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/main_car/car.xacro\n'}
+[49.092102] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/main_car/car_wheels.xacro\n'}
+[49.092202] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/obs_car\n'}
+[49.092299] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/obs_car/obs_car.xacro\n'}
+[49.092397] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/rviz\n'}
+[49.092493] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/rviz/planning.rviz\n'}
+[49.092591] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/ament_index/resource_index/package_run_dependencies/planning\n'}
+[49.092690] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/ament_index/resource_index/parent_prefix_path/planning\n'}
+[49.092897] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/environment/ament_prefix_path.sh\n'}
+[49.093459] (planning) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/planning/share/planning/environment/ament_prefix_path.dsv\n'}
+[49.094133] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/environment/path.sh\n'}
+[49.094249] (planning) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/planning/share/planning/environment/path.dsv\n'}
+[49.094473] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/local_setup.bash\n'}
+[49.094769] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/local_setup.sh\n'}
+[49.094994] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/local_setup.zsh\n'}
+[49.095170] (planning) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/planning/share/planning/local_setup.dsv\n'}
+[49.095318] (planning) StdoutLine: {'line': b'-- Installing: /home/abc/planning_with_ros2/install/planning/share/planning/package.dsv\n'}
+[49.095827] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/ament_index/resource_index/packages/planning\n'}
+[49.095998] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/cmake/planningConfig.cmake\n'}
+[49.096403] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/cmake/planningConfig-version.cmake\n'}
+[49.096700] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/package.xml\n'}
+[49.096857] (planning) CommandEnded: {'returncode': 0}
+[49.111028] (planning) JobEnded: {'identifier': 'planning', 'rc': 0}
+[49.111904] (-) EventReactorShutdown: {}

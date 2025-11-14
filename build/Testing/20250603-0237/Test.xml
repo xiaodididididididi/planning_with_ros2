@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250603-0237-Experimental"
+	Name="abc-G3-3500"
+	Generator="ctest-3.31.3"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="abc-G3-3500"
+	OSRelease="6.8.0-60-generic"
+	OSVersion="#63~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 22 19:00:15 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="165"
+	ModelName="Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz"
+	ProcessorCacheSize="12288"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="15752"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3152.55"
+	>
+	<Testing>
+		<StartDateTime>Jun 03 15:56 CST</StartDateTime>
+		<StartTestTime>1748937360</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jun 03 15:56 CST</EndDateTime>
+		<EndTestTime>1748937360</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

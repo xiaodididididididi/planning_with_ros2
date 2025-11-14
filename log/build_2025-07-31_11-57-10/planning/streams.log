@@ -1,0 +1,99 @@
+[0.292s] Invoking command in '/home/abc/planning_with_ros2/build/planning': CMAKE_PREFIX_PATH=/home/abc/planning_with_ros2/install/base_msgs:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/planning_with_ros2/install/base_msgs/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/abc/planning_with_ros2/build/planning -- -j12 -l12
+[0.313s] [  2%] [32mBuilding CXX object src/common/CMakeFiles/config_reader.dir/config_reader/config_reader.cpp.o[0m
+[0.314s] [  7%] Built target osqp_test
+[0.318s] [ 10%] [32mBuilding CXX object src/test/CMakeFiles/newton_test.dir/newton_test/newton_test.cpp.o[0m
+[0.321s] [ 12%] [32mBuilding CXX object src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o[0m
+[3.713s] [ 15%] [32m[1mLinking CXX shared library libmathlibs.so[0m
+[3.761s] [ 17%] [32m[1mLinking CXX shared library libconfig_reader.so[0m
+[3.829s] [ 20%] Built target mathlibs
+[3.868s] [ 20%] Built target config_reader
+[3.881s] [ 23%] [32m[1mLinking CXX shared library libpnc_map_creator.so[0m
+[3.882s] [ 25%] [32m[1mLinking CXX shared library libglobal_planner.so[0m
+[3.889s] [ 28%] [32m[1mLinking CXX shared library libvehicle_info.so[0m
+[3.892s] [ 30%] [32m[1mLinking CXX shared library libreference_line.so[0m
+[3.925s] [ 33%] [32m[1mLinking CXX executable newton_test[0m
+[4.013s] [ 35%] Built target global_planner
+[4.029s] [ 38%] [32m[1mLinking CXX executable global_path_server[0m
+[4.040s] [ 43%] Built target pnc_map_creator
+[4.052s] [ 43%] Built target newton_test
+[4.057s] [ 46%] [32m[1mLinking CXX executable pnc_map_server[0m
+[4.082s] [ 51%] Built target reference_line
+[4.100s] [ 56%] Built target vehicle_info
+[4.118s] [ 58%] [32m[1mLinking CXX executable car_move_cmd[0m
+[4.121s] [ 61%] [32m[1mLinking CXX executable obs_move_cmd[0m
+[4.126s] [ 64%] [32m[1mLinking CXX shared library libdecision_center.so[0m
+[4.267s] [ 66%] Built target car_move_cmd
+[4.271s] [ 69%] Built target obs_move_cmd
+[4.298s] [ 71%] Built target decision_center
+[4.334s] [ 74%] [32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o[0m
+[4.335s] [ 76%] [32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_smoother.cpp.o[0m
+[4.335s] [ 79%] [32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_smoother.cpp.o[0m
+[4.346s] [ 82%] Built target pnc_map_server
+[4.366s] [ 84%] Built target global_path_server
+[7.361s] [ 87%] [32m[1mLinking CXX shared library liblocal_planner.so[0m
+[7.454s] [ 92%] Built target local_planner
+[7.480s] [ 94%] [32m[1mLinking CXX executable planning_process[0m
+[8.024s] [100%] Built target planning_process
+[8.028s] Invoked command in '/home/abc/planning_with_ros2/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/abc/planning_with_ros2/install/base_msgs:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/planning_with_ros2/install/base_msgs/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/abc/planning_with_ros2/build/planning -- -j12 -l12
+[8.029s] Invoking command in '/home/abc/planning_with_ros2/build/planning': CMAKE_PREFIX_PATH=/home/abc/planning_with_ros2/install/base_msgs:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/planning_with_ros2/install/base_msgs/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --install /home/abc/planning_with_ros2/build/planning
+[8.031s] -- Install configuration: ""
+[8.031s] -- Installing: /home/abc/planning_with_ros2/install/planning/lib/libconfig_reader.so
+[8.031s] -- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/libconfig_reader.so" to ""
+[8.032s] -- Installing: /home/abc/planning_with_ros2/install/planning/lib/libmathlibs.so
+[8.032s] -- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/libmathlibs.so" to ""
+[8.032s] -- Installing: /home/abc/planning_with_ros2/install/planning/lib/libdecision_center.so
+[8.032s] -- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/libdecision_center.so" to ""
+[8.033s] -- Installing: /home/abc/planning_with_ros2/install/planning/lib/libpnc_map_creator.so
+[8.033s] -- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/libpnc_map_creator.so" to ""
+[8.033s] -- Installing: /home/abc/planning_with_ros2/install/planning/lib/planning/pnc_map_server
+[8.035s] -- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/planning/pnc_map_server" to ""
+[8.035s] -- Installing: /home/abc/planning_with_ros2/install/planning/lib/libglobal_planner.so
+[8.036s] -- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/libglobal_planner.so" to ""
+[8.036s] -- Installing: /home/abc/planning_with_ros2/install/planning/lib/planning/global_path_server
+[8.037s] -- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/planning/global_path_server" to ""
+[8.038s] -- Installing: /home/abc/planning_with_ros2/install/planning/lib/liblocal_planner.so
+[8.038s] -- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/liblocal_planner.so" to ""
+[8.038s] -- Installing: /home/abc/planning_with_ros2/install/planning/lib/libreference_line.so
+[8.039s] -- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/libreference_line.so" to ""
+[8.040s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/lib/planning/osqp_test
+[8.040s] -- Installing: /home/abc/planning_with_ros2/install/planning/lib/planning/newton_test
+[8.040s] -- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/planning/newton_test" to ""
+[8.041s] -- Installing: /home/abc/planning_with_ros2/install/planning/lib/libvehicle_info.so
+[8.041s] -- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/libvehicle_info.so" to ""
+[8.041s] -- Installing: /home/abc/planning_with_ros2/install/planning/lib/planning/planning_process
+[8.046s] -- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/planning/planning_process" to ""
+[8.046s] -- Installing: /home/abc/planning_with_ros2/install/planning/lib/planning/car_move_cmd
+[8.046s] -- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/planning/car_move_cmd" to ""
+[8.047s] -- Installing: /home/abc/planning_with_ros2/install/planning/lib/planning/obs_move_cmd
+[8.047s] -- Set non-toolchain portion of runtime path of "/home/abc/planning_with_ros2/install/planning/lib/planning/obs_move_cmd" to ""
+[8.047s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/config
+[8.047s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/config/planning_static_obs_config.yaml
+[8.047s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/launch
+[8.048s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/launch/planning_launch.py
+[8.048s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf
+[8.048s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/main_car
+[8.048s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/main_car/car_camera.xacro
+[8.048s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/main_car/car_base.xacro
+[8.048s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/main_car/car_radar.xacro
+[8.048s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/main_car/car.xacro
+[8.048s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/main_car/car_wheels.xacro
+[8.048s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/obs_car
+[8.048s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/obs_car/obs_car.xacro
+[8.048s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/rviz
+[8.048s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/rviz/planning.rviz
+[8.048s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/ament_index/resource_index/package_run_dependencies/planning
+[8.048s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/ament_index/resource_index/parent_prefix_path/planning
+[8.048s] -- Installing: /home/abc/planning_with_ros2/install/planning/share/planning/environment/ament_prefix_path.sh
+[8.048s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/environment/ament_prefix_path.dsv
+[8.049s] -- Installing: /home/abc/planning_with_ros2/install/planning/share/planning/environment/path.sh
+[8.049s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/environment/path.dsv
+[8.049s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/local_setup.bash
+[8.049s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/local_setup.sh
+[8.049s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/local_setup.zsh
+[8.049s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/local_setup.dsv
+[8.049s] -- Installing: /home/abc/planning_with_ros2/install/planning/share/planning/package.dsv
+[8.049s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/ament_index/resource_index/packages/planning
+[8.049s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/cmake/planningConfig.cmake
+[8.049s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/cmake/planningConfig-version.cmake
+[8.049s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/package.xml
+[8.050s] Invoked command in '/home/abc/planning_with_ros2/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/abc/planning_with_ros2/install/base_msgs:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/planning_with_ros2/install/base_msgs/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --install /home/abc/planning_with_ros2/build/planning

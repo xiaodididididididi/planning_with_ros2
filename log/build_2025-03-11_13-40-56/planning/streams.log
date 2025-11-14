@@ -1,0 +1,21 @@
+[0.264s] Invoking command in '/home/abc/planning_with_ros2/build/planning': CMAKE_PREFIX_PATH=/home/abc/planning_with_ros2/install/base_msgs:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/planning_with_ros2/install/base_msgs/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/abc/planning_with_ros2/build/planning -- -j12 -l12
+[0.285s] [  5%] Built target config_reader
+[0.285s] [ 11%] Built target global_planner
+[0.288s] [ 20%] Built target mathlibs
+[0.297s] [ 22%] [32m[1mLinking CXX executable global_path_server[0m
+[0.297s] [ 31%] Built target pnc_map_creator
+[0.301s] [ 40%] Built target vehicle_info
+[0.305s] [ 48%] Built target reference_line
+[0.309s] [ 54%] Built target pnc_map_server
+[0.313s] [ 60%] Built target decision_center
+[0.314s] [ 65%] Built target obs_move_cmd
+[0.315s] [ 71%] Built target car_move_cmd
+[0.332s] [ 88%] Built target local_planner
+[0.349s] [ 97%] Built target planning_process
+[0.510s] /usr/bin/ld: libglobal_planner.so: undefined reference to `Planning::ConfigReader::ConfigReader()'
+[0.514s] /usr/bin/ld: libglobal_planner.so: undefined reference to `Planning::ConfigReader::read_global_path_config()'
+[0.524s] collect2: error: ld returned 1 exit status
+[0.525s] gmake[2]: *** [src/global_planner/CMakeFiles/global_path_server.dir/build.make:205: src/global_planner/global_path_server] Error 1
+[0.525s] gmake[1]: *** [CMakeFiles/Makefile2:564: src/global_planner/CMakeFiles/global_path_server.dir/all] Error 2
+[0.525s] gmake: *** [Makefile:146: all] Error 2
+[0.526s] Invoked command in '/home/abc/planning_with_ros2/build/planning' returned '2': CMAKE_PREFIX_PATH=/home/abc/planning_with_ros2/install/base_msgs:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/planning_with_ros2/install/base_msgs/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/abc/planning_with_ros2/build/planning -- -j12 -l12

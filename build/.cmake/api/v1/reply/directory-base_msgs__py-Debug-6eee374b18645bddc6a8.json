@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "base_msgs__py",
+		"source" : "/home/abc/planning_with_ros2/build/base_msgs__py"
+	}
+}

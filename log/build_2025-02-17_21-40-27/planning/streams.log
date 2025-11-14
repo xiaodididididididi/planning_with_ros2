@@ -1,0 +1,38 @@
+[0.318s] Invoking command in '/home/abc/planning_with_ros2/build/planning': CMAKE_PREFIX_PATH=/home/abc/planning_with_ros2/install/base_msgs:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/planning_with_ros2/install/base_msgs/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/abc/planning_with_ros2/build/planning -- -j12 -l12
+[0.343s] [  5%] Built target config_reader
+[0.344s] [ 11%] Built target global_planner
+[0.346s] [ 20%] Built target pnc_map_creator
+[0.347s] [ 28%] Built target mathlibs
+[0.358s] [ 34%] Built target global_path_server
+[0.360s] [ 40%] Built target pnc_map_server
+[0.362s] [ 48%] Built target vehicle_info
+[0.365s] [ 57%] Built target reference_line
+[0.375s] [ 68%] Built target car_move_cmd
+[0.375s] [ 68%] Built target decision_center
+[0.375s] [ 74%] Built target obs_move_cmd
+[0.395s] [ 91%] Built target local_planner
+[0.423s] [ 94%] [32mBuilding CXX object src/planning_process/CMakeFiles/planning_process.dir/planning_process.cpp.o[0m
+[2.878s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:35[m[K,
+[2.878s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34[m[K,
+[2.878s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.879s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.879s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.879s]                  from [01m[K/home/abc/planning_with_ros2/src/planning/src/planning_process/planning_process.h:4[m[K,
+[2.879s]                  from [01m[K/home/abc/planning_with_ros2/src/planning/src/planning_process/planning_process.cpp:1[m[K:
+[2.879s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:52:3:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+[2.879s]    52 |   [01;31m[KRCLCPP_SMART_PTR_DEFINITIONS[m[K(AsyncParametersClient)
+[2.879s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.985s] 0x76de94e4251f ???
+[2.986s] 	./signal/../sysdeps/unix/sysv/linux/x86_64/libc_sigaction.c:0
+[2.988s] 0x76de94e29d8f __libc_start_call_main
+[2.988s] 	../sysdeps/nptl/libc_start_call_main.h:58
+[2.988s] 0x76de94e29e3f __libc_start_main_impl
+[2.988s] 	../csu/libc-start.c:392
+[2.988s] Please submit a full bug report,
+[2.988s] with preprocessed source if appropriate.
+[2.988s] Please include the complete backtrace with any bug report.
+[2.988s] See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+[3.010s] gmake[2]: *** [src/planning_process/CMakeFiles/planning_process.dir/build.make:93: src/planning_process/CMakeFiles/planning_process.dir/planning_process.cpp.o] Error 1
+[3.010s] gmake[1]: *** [CMakeFiles/Makefile2:702: src/planning_process/CMakeFiles/planning_process.dir/all] Error 2
+[3.010s] gmake: *** [Makefile:146: all] Error 2
+[3.012s] Invoked command in '/home/abc/planning_with_ros2/build/planning' returned '2': CMAKE_PREFIX_PATH=/home/abc/planning_with_ros2/install/base_msgs:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/planning_with_ros2/install/base_msgs/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/abc/planning_with_ros2/build/planning -- -j12 -l12

@@ -1,0 +1,22 @@
+In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+                 from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/abc/planning_with_ros2/src/planning/src/planning_process/planning_process.h:4[m[K,
+                 from [01m[K/home/abc/planning_with_ros2/src/planning/src/planning_process/planning_process.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:[m[K In constructor ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Ptr) [with _Ptr = base_msgs::srv::GlobalPathService_Response_<std::allocator<void> >*; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’:
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:603:9:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  603 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+0x71307524251f ???
+	./signal/../sysdeps/unix/sysv/linux/x86_64/libc_sigaction.c:0
+0x713075229d8f __libc_start_call_main
+	../sysdeps/nptl/libc_start_call_main.h:58
+0x713075229e3f __libc_start_main_impl
+	../csu/libc-start.c:392
+Please submit a full bug report,
+with preprocessed source if appropriate.
+Please include the complete backtrace with any bug report.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [src/planning_process/CMakeFiles/planning_process.dir/build.make:93: src/planning_process/CMakeFiles/planning_process.dir/planning_process.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:792: src/planning_process/CMakeFiles/planning_process.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

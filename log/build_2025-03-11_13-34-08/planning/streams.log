@@ -1,0 +1,28 @@
+[0.296s] Invoking command in '/home/abc/planning_with_ros2/build/planning': CMAKE_PREFIX_PATH=/home/abc/planning_with_ros2/install/base_msgs:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/planning_with_ros2/install/base_msgs/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/abc/planning_with_ros2/build/planning -- -j12 -l12
+[0.321s] [  5%] Built target config_reader
+[0.321s] [  8%] [32mBuilding CXX object src/global_planner/CMakeFiles/global_planner.dir/global_planner_normal/global_planner_normal.cpp.o[0m
+[0.323s] [ 17%] Built target mathlibs
+[0.336s] [ 25%] Built target pnc_map_creator
+[0.337s] [ 34%] Built target vehicle_info
+[0.341s] [ 42%] Built target reference_line
+[0.350s] [ 48%] Built target pnc_map_server
+[0.352s] [ 54%] Built target obs_move_cmd
+[0.355s] [ 65%] Built target decision_center
+[0.355s] [ 65%] Built target car_move_cmd
+[0.374s] [ 82%] Built target local_planner
+[0.391s] [ 91%] Built target planning_process
+[3.831s] [ 94%] [32m[1mLinking CXX shared library libglobal_planner.so[0m
+[3.944s] [ 94%] Built target global_planner
+[3.957s] [ 97%] [32mBuilding CXX object src/global_planner/CMakeFiles/global_path_server.dir/global_path_server.cpp.o[0m
+[6.769s] [01m[K/home/abc/planning_with_ros2/src/planning/src/global_planner/global_path_server.cpp:[m[K In member function ‘[01m[Kvisualization_msgs::msg::Marker Planning::GlobalPathServer::path2marker(const Path&)[m[K’:
+[6.769s] [01m[K/home/abc/planning_with_ros2/src/planning/src/global_planner/global_path_server.cpp:55:25:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[6.770s]    55 |         [01;35m[Kpath_rviz_.type - Marker::LINE_STRIP[m[K;
+[6.770s]       |         [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[10.461s] [100%] [32m[1mLinking CXX executable global_path_server[0m
+[10.667s] /usr/bin/ld: libglobal_planner.so: undefined reference to `Planning::ConfigReader::ConfigReader()'
+[10.670s] /usr/bin/ld: libglobal_planner.so: undefined reference to `Planning::ConfigReader::read_global_path_config()'
+[10.679s] collect2: error: ld returned 1 exit status
+[10.680s] gmake[2]: *** [src/global_planner/CMakeFiles/global_path_server.dir/build.make:205: src/global_planner/global_path_server] Error 1
+[10.680s] gmake[1]: *** [CMakeFiles/Makefile2:564: src/global_planner/CMakeFiles/global_path_server.dir/all] Error 2
+[10.680s] gmake: *** [Makefile:146: all] Error 2
+[10.682s] Invoked command in '/home/abc/planning_with_ros2/build/planning' returned '2': CMAKE_PREFIX_PATH=/home/abc/planning_with_ros2/install/base_msgs:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/planning_with_ros2/install/base_msgs/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/abc/planning_with_ros2/build/planning -- -j12 -l12

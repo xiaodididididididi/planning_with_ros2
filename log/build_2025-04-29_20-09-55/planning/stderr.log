@@ -1,0 +1,4 @@
+gmake[2]: *** [src/local_planner/CMakeFiles/local_planner.dir/build.make:121: src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_planner.cpp.o] Interrupt
+gmake[2]: *** [src/local_planner/CMakeFiles/local_planner.dir/build.make:93: src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_planner.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:599: src/local_planner/CMakeFiles/local_planner.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,29 @@
+[01m[K/home/abc/planning_with_ros2/src/planning/src/common/math/curve.cpp:[m[K In static member function ‘[01m[Kstatic int Planning::Curve::find_match_point(const Referline&, const PoseStamped&)[m[K’:
+[01m[K/home/abc/planning_with_ros2/src/planning/src/common/math/curve.cpp:115:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpath[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  115 |     int Curve::find_match_point([01;35m[Kconst Referline &path[m[K, const PoseStamped &target_point)
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/abc/planning_with_ros2/src/planning/src/common/math/curve.cpp:115:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_point[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  115 |     int Curve::find_match_point(const Referline &path, [01;35m[Kconst PoseStamped &target_point[m[K)
+      |                                                        [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/abc/planning_with_ros2/src/planning/src/common/math/curve.cpp:[m[K In static member function ‘[01m[Kstatic void Planning::Curve::find_projection_point(const Referline&, double&, double&, double&, double&, double&, double&)[m[K’:
+[01m[K/home/abc/planning_with_ros2/src/planning/src/common/math/curve.cpp:120:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpath[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  120 |     void Curve::find_projection_point([01;35m[Kconst Referline &path[m[K,
+      |                                       [01;35m[K~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/abc/planning_with_ros2/src/planning/src/common/math/curve.cpp:121:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  121 |                                       [01;35m[Kdouble &rs[m[K, double &rx, double &ry,
+      |                                       [01;35m[K~~~~~~~~^~[m[K
+[01m[K/home/abc/planning_with_ros2/src/planning/src/common/math/curve.cpp:121:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  121 |                                       double &rs, [01;35m[Kdouble &rx[m[K, double &ry,
+      |                                                   [01;35m[K~~~~~~~~^~[m[K
+[01m[K/home/abc/planning_with_ros2/src/planning/src/common/math/curve.cpp:121:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kry[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  121 |                                       double &rs, double &rx, [01;35m[Kdouble &ry[m[K,
+      |                                                               [01;35m[K~~~~~~~~^~[m[K
+[01m[K/home/abc/planning_with_ros2/src/planning/src/common/math/curve.cpp:122:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krtheta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  122 |                                       [01;35m[Kdouble &rtheta[m[K, double &rkappa, double &dkappa)
+      |                                       [01;35m[K~~~~~~~~^~~~~~[m[K
+[01m[K/home/abc/planning_with_ros2/src/planning/src/common/math/curve.cpp:122:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krkappa[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  122 |                                       double &rtheta, [01;35m[Kdouble &rkappa[m[K, double &dkappa)
+      |                                                       [01;35m[K~~~~~~~~^~~~~~[m[K
+[01m[K/home/abc/planning_with_ros2/src/planning/src/common/math/curve.cpp:122:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdkappa[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  122 |                                       double &rtheta, double &rkappa, [01;35m[Kdouble &dkappa[m[K)
+      |                                                                       [01;35m[K~~~~~~~~^~~~~~[m[K

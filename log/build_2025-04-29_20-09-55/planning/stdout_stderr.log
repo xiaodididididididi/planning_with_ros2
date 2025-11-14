@@ -1,0 +1,26 @@
+[  5%] Built target config_reader
+[ 14%] Built target mathlibs
+[ 20%] Built target global_planner
+[ 28%] Built target pnc_map_creator
+[ 37%] Built target reference_line
+[ 45%] Built target global_path_server
+[ 45%] [32mBuilding CXX object src/vehicle_info/CMakeFiles/vehicle_info.dir/main_car/main_car_info.cpp.o[0m
+[ 51%] Built target pnc_map_server
+[ 54%] [32mBuilding CXX object src/vehicle_info/CMakeFiles/vehicle_info.dir/obs_car/obs_car_info.cpp.o[0m
+[ 57%] [32m[1mLinking CXX shared library libvehicle_info.so[0m
+[ 57%] Built target vehicle_info
+[ 65%] [32mBuilding CXX object src/move_cmd/CMakeFiles/car_move_cmd.dir/car_move_cmd.cpp.o[0m
+[ 65%] [32mBuilding CXX object src/move_cmd/CMakeFiles/obs_move_cmd.dir/obs_move_cmd.cpp.o[0m
+[ 65%] [32mBuilding CXX object src/decision_center/CMakeFiles/decision_center.dir/decision_center.cpp.o[0m
+[ 68%] [32m[1mLinking CXX shared library libdecision_center.so[0m
+[ 71%] [32m[1mLinking CXX executable obs_move_cmd[0m
+[ 71%] Built target decision_center
+[ 74%] [32m[1mLinking CXX executable car_move_cmd[0m
+[ 77%] [32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_planner.cpp.o[0m
+[ 80%] [32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_planner.cpp.o[0m
+[ 80%] Built target obs_move_cmd
+[ 80%] Built target car_move_cmd
+gmake[2]: *** [src/local_planner/CMakeFiles/local_planner.dir/build.make:121: src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_planner.cpp.o] Interrupt
+gmake[2]: *** [src/local_planner/CMakeFiles/local_planner.dir/build.make:93: src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_planner.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:599: src/local_planner/CMakeFiles/local_planner.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

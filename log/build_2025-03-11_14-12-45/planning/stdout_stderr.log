@@ -1,0 +1,19 @@
+[  5%] Built target config_reader
+[ 11%] Built target global_planner
+[ 20%] Built target mathlibs
+[ 22%] [32m[1mLinking CXX executable global_path_server[0m
+[ 31%] Built target pnc_map_creator
+[ 40%] Built target reference_line
+[ 48%] Built target vehicle_info
+[ 54%] Built target pnc_map_server
+[ 60%] Built target decision_center
+[ 71%] Built target car_move_cmd
+[ 71%] Built target obs_move_cmd
+[ 88%] Built target local_planner
+[ 97%] Built target planning_process
+/usr/bin/ld: libglobal_planner.so: undefined reference to `Planning::ConfigReader::ConfigReader()'
+/usr/bin/ld: libglobal_planner.so: undefined reference to `Planning::ConfigReader::read_global_path_config()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [src/global_planner/CMakeFiles/global_path_server.dir/build.make:205: src/global_planner/global_path_server] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:564: src/global_planner/CMakeFiles/global_path_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
