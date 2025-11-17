@@ -142,6 +142,15 @@ namespace Planning
                     break;
                 }
             }
+            
+            else
+            {
+            }
+
+            if (st_points_.empty())
+            {
+                return;
+            }
         }
     }
 }
