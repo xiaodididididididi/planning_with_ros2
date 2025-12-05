@@ -133,7 +133,7 @@ namespace Planning
 
                     p.t_ = p.t0_ + real_break_time;
                     p.s_2path_ = obs_dis_s - decision_config_->decision().safe_dis_s_ + obs->ds_dt_2path() * p.t_;
-                    p.ds_dt_2path_ = obs->ds_dt();
+                    p.ds_dt_2path_ = obs->ds_dt_2path();
                     p.type_ = static_cast<int>(STPointType::STOP);
                     st_points_.emplace_back(p);
                     RCLCPP_INFO(rclcpp::get_logger("decision_center"), "------stop or follow obs,p:(s=%.2f,t=%.2f,ds_dt=%.2f)", p.s_2path_, p.t_, p.ds_dt_2path_);
@@ -142,15 +142,82 @@ namespace Planning
                     break;
                 }
             }
-            
+
             else
             {
-            }
+                if (fabs(obs->dl_dt_2path()) < min_speed)
+                {
+                    continue;
+                }
 
-            if (st_points_.empty())
-            {
-                return;
+                if (decision_config_->main_car().speed_ori_ < min_speed)
+                {
+                    continue;
+                }
+
+                const double car_dis_time = obs_dis_s / decision_config_->main_car().speed_ori_;
+                const double obs_dis_time = (0.0 - obs->l_2path()) / obs->dl_dt_2path();
+                if (obs_dis_time < 0.0)
+                {
+                    continue;
+                }
+
+                obs->update_t0();
+                p.t0_ = obs->t0();
+                p.s0_ = obs_dis_s - ori_dis;
+
+                const double delta_t = decision_config_->decision().safe_dis_s_ / decision_config_->main_car().speed_ori_;
+                const double half_through_time = (-obs->length() / 2.0) / obs->dl_dt_2path();
+                t_in = obs_dis_time - half_through_time;
+                t_out = obs_dis_time + half_through_time;
+                RCLCPP_INFO(rclcpp::get_logger("decision_center"), "------obs_dis_s= %.2f, p.t0= %.2f, p.s0= %.2f, car_dis_time= %.2f, obs_dis_time= %.2f, t_in= %.2f, t_out= %.2f,delta_t= %.2f",
+                            obs_dis_s, p.t0_, p.s0_, car_dis_time, obs_dis_time, t_in, t_out, delta_t);
+
+                if (car_dis_time > obs_dis_time && car_dis_time < t_out + delta_t)
+                {
+                    p.t_ = t_out;
+                    p.s_2path_ = obs_dis_s - decision_config_->decision().safe_dis_s_;
+                    p.ds_dt_2path_ = decision_config_->main_car().speed_ori_;
+                    p.type_ = static_cast<int>(STPointType::GIVE_WAY);
+                    st_points_.emplace_back(p);
+                    RCLCPP_INFO(rclcpp::get_logger("decision_center"), "------give way, p:(s= %.2f, t=%.2f, ds_dt= %.2f)",
+                                p.s_2path_, p.t_, p.ds_dt_2path_);
+                }
+
+                else if (car_dis_time < obs_dis_time && car_dis_time > t_in - delta_t)
+                {
+                    p.t_ = t_in;
+                    p.s_2path_ = obs_dis_s + decision_config_->decision().safe_dis_s_;
+                    p.ds_dt_2path_ = decision_config_->main_car().speed_ori_;
+                    p.type_ = static_cast<int>(STPointType::RUSH_OUT);
+                    st_points_.emplace_back(p);
+                    RCLCPP_INFO(rclcpp::get_logger("decision_center"), "------rush out, p:(s= %.2f, t=%.2f, ds_dt= %.2f)",
+                                p.s_2path_, p.t_, p.ds_dt_2path_);
+                }
+
+                obs->update_t_in_out(p.t_, t_in, t_out);
             }
         }
+
+        if (st_points_.empty())
+        {
+            return;
+        }
+
+        STPoint p_start;
+        p_start.t_ = st_points_[0].t0_;
+        p_start.s_2path_ = st_points_[0].s0_;
+        p_start.ds_dt_2path_ = decision_config_->main_car().speed_ori_;
+        p_start.type_ = static_cast<int>(STPointType::START);
+        st_points_.emplace(st_points_.begin(), p_start);
+
+        STPoint p_end;
+        p_end.t_ = decision_config_->local_speeds().speed_size_;
+        p_end.s_2path_ = st_points_.back().s_2path_ + st_points_.back().ds_dt_2path_ * (p_end.t_ - st_points_.back().t_);
+        p_end.ds_dt_2path_ = st_points_.back().ds_dt_2path_;
+        p_end.type_ = static_cast<int>(STPointType::END);
+        st_points_.emplace_back(p_end);
+        RCLCPP_INFO(rclcpp::get_logger("decision_center"), "------p_start:(s= %.2f, t=%.2f, ds_dt= %.2f), p_end:(s= %.2f, t=%.2f, ds_dt= %.2f)",
+                    p_start.s_2path_, p_start.t_, p_start.ds_dt_2path_, p_end.s_2path_, p_end.t_, p_end.ds_dt_2path_);
     }
 }

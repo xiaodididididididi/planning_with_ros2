@@ -47,7 +47,7 @@ cdr_deserialize(
   cdr >> ros_message.map_type;
 
   return true;
-}
+}  // NOLINT(readability/fn_size)
 
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_base_msgs
@@ -287,7 +287,7 @@ cdr_deserialize(
     cdr, ros_message.pnc_map);
 
   return true;
-}
+}  // NOLINT(readability/fn_size)
 
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_base_msgs

@@ -515,7 +515,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu99 -fPIC"
+					"fragment" : "-std=gnu99 -fPIC"
 				},
 				{
 					"backtrace" : 66,
@@ -544,11 +544,11 @@
 			[
 				{
 					"backtrace" : 74,
-					"path" : "/home/abc/planning_with_ros2/build/rosidl_generator_c"
+					"path" : "/home/abc/planning_with_ros2/build/base_msgs/rosidl_generator_c"
 				},
 				{
 					"backtrace" : 74,
-					"path" : "/home/abc/planning_with_ros2/build/rosidl_generator_py"
+					"path" : "/home/abc/planning_with_ros2/build/base_msgs/rosidl_generator_py"
 				},
 				{
 					"backtrace" : 74,
@@ -658,6 +658,10 @@
 	"dependencies" : 
 	[
 		{
+			"backtrace" : 64,
+			"id" : "base_msgs__py::@c5b907bdd23f5c934ba9"
+		},
+		{
 			"backtrace" : 7,
 			"id" : "base_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
 		},
@@ -668,10 +672,6 @@
 		{
 			"backtrace" : 7,
 			"id" : "base_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 64,
-			"id" : "base_msgs__py::@c5b907bdd23f5c934ba9"
 		}
 	],
 	"id" : "base_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
@@ -690,7 +690,7 @@
 		],
 		"prefix" : 
 		{
-			"path" : "/usr/local"
+			"path" : "/home/abc/planning_with_ros2/install/base_msgs"
 		}
 	},
 	"link" : 
@@ -702,7 +702,7 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/home/abc/planning_with_ros2/build/rosidl_generator_py/base_msgs:/home/abc/planning_with_ros2/build:/opt/ros/humble/lib:",
+				"fragment" : "-Wl,-rpath,/home/abc/planning_with_ros2/build/base_msgs/rosidl_generator_py/base_msgs:/home/abc/planning_with_ros2/build/base_msgs:/opt/ros/humble/lib:",
 				"role" : "libraries"
 			},
 			{
@@ -1055,7 +1055,7 @@
 			"backtrace" : 5,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "/home/abc/planning_with_ros2/build/rosidl_generator_py/base_msgs/_base_msgs_s.ep.rosidl_typesupport_c.c",
+			"path" : "/home/abc/planning_with_ros2/build/base_msgs/rosidl_generator_py/base_msgs/_base_msgs_s.ep.rosidl_typesupport_c.c",
 			"sourceGroupIndex" : 0
 		}
 	],

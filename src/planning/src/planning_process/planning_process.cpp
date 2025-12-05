@@ -254,6 +254,8 @@ namespace Planning
             obs->vehicle_cartesian_to_frenet_2path(local_path, refer_line, car_);
         }
 
+        decider_->make_speed_decision(car_, obses_);
+
         LocalSpeeds local_speeds;
 
         const auto local_trajectory = local_trajectory_combiner_->combin_trajectory(local_path, local_speeds);
