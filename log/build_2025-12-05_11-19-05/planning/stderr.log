@@ -1,0 +1,4 @@
+[01m[K/home/abc/planning_with_ros2/src/planning/src/local_planner/local_speeds/local_speeds_planner.cpp:[m[K In member function ‘[01m[Kbase_msgs::msg::LocalSpeeds Planning::LocalSpeedsPlanner::cal_speed(const std::shared_ptr<Planning::DecisionCenter>&)[m[K’:
+[01m[K/home/abc/planning_with_ros2/src/planning/src/local_planner/local_speeds/local_speeds_planner.cpp:14:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdecision[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   14 |     LocalSpeeds LocalSpeedsPlanner::cal_speed([01;35m[Kconst std::shared_ptr<DecisionCenter> &decision[m[K)
+      |                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K

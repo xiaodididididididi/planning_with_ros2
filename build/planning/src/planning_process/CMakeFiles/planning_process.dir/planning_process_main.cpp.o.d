@@ -1087,10 +1087,13 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
  /home/abc/planning_with_ros2/src/planning/src/common/math/polynomial_curve.h \
  /home/abc/planning_with_ros2/src/planning/src/local_planner/local_path/local_path_smoother.h \
  /home/abc/planning_with_ros2/src/planning/src/local_planner/local_speeds/local_speeds_planner.h \
- /home/abc/planning_with_ros2/src/planning/src/local_planner/local_speeds/local_speeds_smoother.h \
- /home/abc/planning_with_ros2/src/planning/src/local_planner/local_trajectory_combiner.h \
+ /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/local_speeds_point.hpp \
+ /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds_point__builder.hpp \
+ /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds_point__type_support.hpp \
  /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/local_speeds.hpp \
  /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds__struct.hpp \
  /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds__builder.hpp \
  /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds__traits.hpp \
- /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds__type_support.hpp
+ /home/abc/planning_with_ros2/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_speeds__type_support.hpp \
+ /home/abc/planning_with_ros2/src/planning/src/local_planner/local_speeds/local_speeds_smoother.h \
+ /home/abc/planning_with_ros2/src/planning/src/local_planner/local_trajectory_combiner.h
