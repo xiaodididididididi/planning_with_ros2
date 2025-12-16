@@ -2,6 +2,18 @@
 
 namespace Planning
 {
+    Eigen::Vector2d PolynomialCurve::linear_polynomial(const double &start_x, const double &start_y, const double &end_x, const double &end_y)
+    {
+        Eigen::Matrix2d S;
+        S << 1.0, start_x,
+            1.0, end_x;
+
+        Eigen::Vector2d L;
+        L << start_y, end_y;
+
+        return S.colPivHouseholderQr().solve(L);
+    }
+
     Eigen::Vector<double, 6> PolynomialCurve::quintic_polynomial(const double &start_x, const double &start_y, const double &start_dy_dx, const double &start_ddy_dx, const double &end_x, const double &end_y, const double &end_dy_dx, const double &end_ddy_dx)
     {
         const double start_x_2 = start_x * start_x;

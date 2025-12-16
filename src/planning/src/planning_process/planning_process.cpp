@@ -256,7 +256,12 @@ namespace Planning
 
         decider_->make_speed_decision(car_, obses_);
 
-        LocalSpeeds local_speeds;
+        const auto local_speeds = local_speeds_planner_->cal_speed(decider_);
+        if (local_speeds.local_speeds.empty())
+        {
+            RCLCPP_ERROR(this->get_logger(), "local speeds empty!");
+            return;
+        }
 
         const auto local_trajectory = local_trajectory_combiner_->combin_trajectory(local_path, local_speeds);
         if (local_trajectory.local_trajectory.empty())
