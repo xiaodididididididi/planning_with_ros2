@@ -1,9 +1,0 @@
-[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
-  rosidl_generate_interfaces() the passed file 'msg/ReferlinPoint.msg'
-  doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
-  '/home/abc/planning_with_ros2/src/base_msgs'
-Call Stack (most recent call first):
-  CMakeLists.txt:32 (rosidl_generate_interfaces)
-
-[0m
-gmake: *** [Makefile:233: cmake_check_build_system] Error 1

@@ -1,6 +1,0 @@
-/usr/bin/ld: CMakeFiles/global_path_server.dir/global_path_server.cpp.o: in function `void __gnu_cxx::new_allocator<Planning::GlobalPlannerNormal>::construct<Planning::GlobalPlannerNormal>(Planning::GlobalPlannerNormal*)':
-global_path_server.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN8Planning19GlobalPlannerNormalEE9constructIS2_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN8Planning19GlobalPlannerNormalEE9constructIS2_JEEEvPT_DpOT0_]+0x31): undefined reference to `Planning::GlobalPlannerNormal::GlobalPlannerNormal()'
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [src/global_planner/CMakeFiles/global_path_server.dir/build.make:205: src/global_planner/global_path_server] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:564: src/global_planner/CMakeFiles/global_path_server.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

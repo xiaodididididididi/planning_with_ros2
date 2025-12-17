@@ -1,4 +1,0 @@
-[01m[K/home/abc/planning_with_ros2/src/planning/src/global_planner/global_path_server.cpp:[m[K In member function ‘[01m[Kvisualization_msgs::msg::Marker Planning::GlobalPathServer::path2marker(const Path&)[m[K’:
-[01m[K/home/abc/planning_with_ros2/src/planning/src/global_planner/global_path_server.cpp:55:25:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
-   55 |         [01;35m[Kpath_rviz_.type - Marker::LINE_STRIP[m[K;
-      |         [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K

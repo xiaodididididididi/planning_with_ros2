@@ -1,4 +1,0 @@
-[01m[K/home/abc/planning_with_ros2/src/planning/src/move_cmd/car_move_cmd.cpp:[m[K In member function ‘[01m[Kvoid Planning::CarMoveCmd::car_broadcast_tf(base_msgs::msg::LocalTrajectory_<std::allocator<void> >::SharedPtr)[m[K’:
-[01m[K/home/abc/planning_with_ros2/src/planning/src/move_cmd/car_move_cmd.cpp:26:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktrajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-   26 |     void CarMoveCmd::car_broadcast_tf([01;35m[Kconst LocalTrajectory::SharedPtr trajectory[m[K)
-      |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K

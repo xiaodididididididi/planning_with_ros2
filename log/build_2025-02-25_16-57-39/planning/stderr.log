@@ -1,8 +1,0 @@
-/home/abc/planning_with_ros2/src/planning/src/planning_process/planning_process.cpp: In instantiation of ‘[01m[Kbool Planning::PlanningProcess::connet_server(const T&) [with T = std::shared_ptr<rclcpp::Client<base_msgs::srv::PNCMapService> >][m[K’:
-[01m[K/home/abc/planning_with_ros2/src/planning/src/planning_process/planning_process.cpp:31:27:[m[K   required from here
-[01m[K/home/abc/planning_with_ros2/src/planning/src/planning_process/planning_process.cpp:58:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kclient[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-   58 |     bool PlanningProcess::connet_server([01;35m[Kconst T &client[m[K)
-      |                                         [01;35m[K~~~~~~~~~^~~~~~[m[K
-/home/abc/planning_with_ros2/src/planning/src/planning_process/planning_process.cpp: In instantiation of ‘[01m[Kbool Planning::PlanningProcess::connet_server(const T&) [with T = std::shared_ptr<rclcpp::Client<base_msgs::srv::GlobalPathService> >][m[K’:
-[01m[K/home/abc/planning_with_ros2/src/planning/src/planning_process/planning_process.cpp:43:27:[m[K   required from here
-[01m[K/home/abc/planning_with_ros2/src/planning/src/planning_process/planning_process.cpp:58:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kclient[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]

@@ -1,9 +1,0 @@
-[31mCMake Error at CMakeLists.txt:58 (add_subdirectory):
-  The source directory
-
-    /home/abc/planning_with_ros2/src/planning/src/global_planner
-
-  does not contain a CMakeLists.txt file.
-
-[0m
-gmake: *** [Makefile:274: cmake_check_build_system] Error 1
