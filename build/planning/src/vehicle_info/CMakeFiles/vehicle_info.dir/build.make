@@ -172,7 +172,7 @@ src/vehicle_info/libvehicle_info.so: /opt/ros/humble/lib/libgeometry_msgs__rosid
 src/vehicle_info/libvehicle_info.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
 src/vehicle_info/libvehicle_info.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 src/vehicle_info/libvehicle_info.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-src/vehicle_info/libvehicle_info.so: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+src/vehicle_info/libvehicle_info.so: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 src/vehicle_info/libvehicle_info.so: /opt/ros/humble/lib/librmw.so
 src/vehicle_info/libvehicle_info.so: /home/abc/planning_with_ros2/install/base_msgs/lib/libbase_msgs__rosidl_typesupport_introspection_cpp.so
 src/vehicle_info/libvehicle_info.so: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so

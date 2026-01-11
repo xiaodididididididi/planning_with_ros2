@@ -511,7 +511,7 @@ libbase_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/libgeometry_
 libbase_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 libbase_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 libbase_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-libbase_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+libbase_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 libbase_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librmw.so
 libbase_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
 libbase_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/libnav_msgs__rosidl_generator_c.so

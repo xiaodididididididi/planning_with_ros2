@@ -158,7 +158,7 @@ src/decision_center/libdecision_center.so: /opt/ros/humble/lib/libstd_msgs__rosi
 src/decision_center/libdecision_center.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 src/decision_center/libdecision_center.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 src/decision_center/libdecision_center.so: /opt/ros/humble/lib/librmw.so
-src/decision_center/libdecision_center.so: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+src/decision_center/libdecision_center.so: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 src/decision_center/libdecision_center.so: /home/abc/planning_with_ros2/install/base_msgs/lib/libbase_msgs__rosidl_typesupport_introspection_cpp.so
 src/decision_center/libdecision_center.so: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
 src/decision_center/libdecision_center.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so

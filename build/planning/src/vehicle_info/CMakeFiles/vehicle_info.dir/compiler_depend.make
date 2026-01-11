@@ -245,6 +245,7 @@ src/vehicle_info/CMakeFiles/vehicle_info.dir/main_car/main_car_info.cpp.o: /home
   /opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp \
@@ -1026,6 +1027,7 @@ src/vehicle_info/CMakeFiles/vehicle_info.dir/obs_car/obs_car_info.cpp.o: /home/a
   /opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp \
@@ -1658,7 +1660,7 @@ src/vehicle_info/CMakeFiles/vehicle_info.dir/obs_car/obs_car_info.cpp.o: /home/a
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
-/opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
 
 /opt/ros/humble/include/rcutils/rcutils/types/string_array.h:
 
@@ -1775,6 +1777,8 @@ src/vehicle_info/CMakeFiles/vehicle_info.dir/obs_car/obs_car_info.cpp.o: /home/a
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:
 
@@ -2065,8 +2069,6 @@ src/vehicle_info/CMakeFiles/vehicle_info.dir/obs_car/obs_car_info.cpp.o: /home/a
 /usr/include/features.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
 
 /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp:
 
@@ -2559,6 +2561,8 @@ src/vehicle_info/CMakeFiles/vehicle_info.dir/obs_car/obs_car_info.cpp.o: /home/a
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_client.hpp:
+
+/opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h:
 
 /opt/ros/humble/include/rmw/rmw/domain_id.h:
 

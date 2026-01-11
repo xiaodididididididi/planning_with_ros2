@@ -128,7 +128,7 @@ src/test/osqp_test: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_f
 src/test/osqp_test: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 src/test/osqp_test: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 src/test/osqp_test: /opt/ros/humble/lib/librmw.so
-src/test/osqp_test: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+src/test/osqp_test: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 src/test/osqp_test: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
 src/test/osqp_test: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 src/test/osqp_test: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
