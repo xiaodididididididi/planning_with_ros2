@@ -116,7 +116,7 @@ namespace Planning
 
             if (fabs(obs->l_2path()) < obs->width() / 2.0)
             {
-                if (fabs(obs->dl_dt_2path() < min_speed))
+                if (fabs(obs->dl_dt_2path()) < min_speed)
                 {
                     if (obs->ds_dt_2path() > car->speed() + 0.5)
                     {

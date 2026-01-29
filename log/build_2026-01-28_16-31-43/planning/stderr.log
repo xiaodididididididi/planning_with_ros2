@@ -1,0 +1,24 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:35[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/abc/planning_with_ros2/src/planning/src/move_cmd/obs_move_cmd.h:4[m[K,
+                 from [01m[K/home/abc/planning_with_ros2/src/planning/src/move_cmd/obs_move_cmd.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:52:3:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+   52 |   [01;31m[KRCLCPP_SMART_PTR_DEFINITIONS[m[K(AsyncParametersClient)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+0x723f0924251f ???
+	./signal/../sysdeps/unix/sysv/linux/x86_64/libc_sigaction.c:0
+0x723f09229d8f __libc_start_call_main
+	../sysdeps/nptl/libc_start_call_main.h:58
+0x723f09229e3f __libc_start_main_impl
+	../csu/libc-start.c:392
+Please submit a full bug report,
+with preprocessed source if appropriate.
+Please include the complete backtrace with any bug report.
+See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+gmake[2]: *** [src/move_cmd/CMakeFiles/obs_move_cmd.dir/build.make:79: src/move_cmd/CMakeFiles/obs_move_cmd.dir/obs_move_cmd.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:860: src/move_cmd/CMakeFiles/obs_move_cmd.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

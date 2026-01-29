@@ -1,0 +1,115 @@
+[0.272s] Invoking command in '/home/abc/planning_with_ros2/build/planning': CMAKE_PREFIX_PATH=/home/abc/planning_with_ros2/install/base_msgs:/home/abc/planning_with_ros2/install/planning:/home/abc/perception_with_ros2/install/perception:/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/planning_with_ros2/install/data_plot:/home/abc/perception_with_ros2/install/data_plot_per:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/local/cuda-11.8/lib64:/home/abc/planning_with_ros2/install/planning/lib:/usr/local/cuda-11.8/lib64:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/base_msgs_per/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/abc/TensorRT-8.6/lib:/home/abc/TensorRT-8.6/lib /usr/local/bin/cmake /home/abc/planning_with_ros2/src/planning -DCMAKE_INSTALL_PREFIX=/home/abc/planning_with_ros2/install/planning
+[0.312s] -- The C compiler identification is GNU 11.4.0
+[0.362s] -- The CXX compiler identification is GNU 11.4.0
+[0.369s] -- Detecting C compiler ABI info
+[0.416s] -- Detecting C compiler ABI info - done
+[0.433s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.433s] -- Detecting C compile features
+[0.434s] -- Detecting C compile features - done
+[0.443s] -- Detecting CXX compiler ABI info
+[0.497s] -- Detecting CXX compiler ABI info - done
+[0.516s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.516s] -- Detecting CXX compile features
+[0.517s] -- Detecting CXX compile features - done
+[0.523s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.651s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.743s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.803s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.812s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.824s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.840s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.861s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.921s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.924s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.012s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.041s] -- Found FastRTPS: /opt/ros/humble/include
+[1.085s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.094s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.153s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.154s] -- Found Threads: TRUE
+[1.228s] -- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)
+[1.259s] -- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.391s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.419s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.482s] -- Found base_msgs: 0.0.0 (/home/abc/planning_with_ros2/install/base_msgs/share/base_msgs/cmake)
+[1.578s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.661s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.662s] -- Configured cppcheck include dirs: /home/abc/planning_with_ros2/src/planning/src/common/config_reader;/home/abc/planning_with_ros2/src/planning/src/common/math;/home/abc/planning_with_ros2/src/planning/src/decision_center;/home/abc/planning_with_ros2/src/planning/src/pnc_map_creator;/home/abc/planning_with_ros2/src/planning/src/pnc_map_creator/pnc_map_straight;/home/abc/planning_with_ros2/src/planning/src/pnc_map_creator/pnc_map_sturn;/home/abc/planning_with_ros2/src/planning/src/global_planner;/home/abc/planning_with_ros2/src/planning/src/global_planner/global_planner_normal;/home/abc/planning_with_ros2/src/planning/src/local_planner;/home/abc/planning_with_ros2/src/planning/src/local_planner/local_path;/home/abc/planning_with_ros2/src/planning/src/local_planner/local_speeds;/home/abc/planning_with_ros2/src/planning/src/reference_line;/home/abc/planning_with_ros2/src/planning/src/test/osqp_test;/home/abc/planning_with_ros2/src/planning/src/vehicle_info;/home/abc/planning_with_ros2/src/planning/src/vehicle_info/main_car;/home/abc/planning_with_ros2/src/planning/src/vehicle_info/obs_car;/home/abc/planning_with_ros2/src/planning/src/planning_process;/home/abc/planning_with_ros2/src/planning/src/move_cmd
+[1.662s] -- Configured cppcheck exclude dirs and/or files: 
+[1.663s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.665s] -- Added test 'lint_cmake' to check CMake code style
+[1.666s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.669s] -- Added test 'uncrustify' to check C / C++ code style
+[1.669s] -- Configured uncrustify additional arguments: 
+[1.670s] -- Added test 'xmllint' to check XML markup files
+[1.672s] -- Configuring done (1.4s)
+[1.779s] -- Generating done (0.1s)
+[1.806s] -- Build files have been written to: /home/abc/planning_with_ros2/build/planning
+[1.821s] Invoked command in '/home/abc/planning_with_ros2/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/abc/planning_with_ros2/install/base_msgs:/home/abc/planning_with_ros2/install/planning:/home/abc/perception_with_ros2/install/perception:/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/planning_with_ros2/install/data_plot:/home/abc/perception_with_ros2/install/data_plot_per:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/local/cuda-11.8/lib64:/home/abc/planning_with_ros2/install/planning/lib:/usr/local/cuda-11.8/lib64:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/base_msgs_per/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/abc/TensorRT-8.6/lib:/home/abc/TensorRT-8.6/lib /usr/local/bin/cmake /home/abc/planning_with_ros2/src/planning -DCMAKE_INSTALL_PREFIX=/home/abc/planning_with_ros2/install/planning
+[1.822s] Invoking command in '/home/abc/planning_with_ros2/build/planning': CMAKE_PREFIX_PATH=/home/abc/planning_with_ros2/install/base_msgs:/home/abc/planning_with_ros2/install/planning:/home/abc/perception_with_ros2/install/perception:/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/planning_with_ros2/install/data_plot:/home/abc/perception_with_ros2/install/data_plot_per:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/local/cuda-11.8/lib64:/home/abc/planning_with_ros2/install/planning/lib:/usr/local/cuda-11.8/lib64:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/base_msgs_per/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/abc/TensorRT-8.6/lib:/home/abc/TensorRT-8.6/lib /usr/local/bin/cmake --build /home/abc/planning_with_ros2/build/planning -- -j12 -l12
+[1.842s] [  2%] [32mBuilding CXX object src/common/CMakeFiles/config_reader.dir/config_reader/config_reader.cpp.o[0m
+[1.842s] [  5%] [32mBuilding CXX object src/test/CMakeFiles/osqp_test.dir/osqp_test/osqp_test.cpp.o[0m
+[1.842s] [  7%] [32mBuilding CXX object src/common/CMakeFiles/mathlibs.dir/math/curve.cpp.o[0m
+[1.842s] [ 10%] [32mBuilding CXX object src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o[0m
+[1.842s] [ 12%] [32mBuilding CXX object src/test/CMakeFiles/newton_test.dir/newton_test/newton_test.cpp.o[0m
+[5.405s] [ 15%] [32m[1mLinking CXX shared library libconfig_reader.so[0m
+[5.506s] [ 15%] Built target config_reader
+[5.515s] [ 20%] [32mBuilding CXX object src/global_planner/CMakeFiles/global_planner.dir/global_planner_normal/global_planner_normal.cpp.o[0m
+[5.515s] [ 20%] [32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_straight/pnc_map_creator_straight.cpp.o[0m
+[5.515s] [ 23%] [32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_sturn/pnc_map_creator_sturn.cpp.o[0m
+[5.606s] [ 25%] [32m[1mLinking CXX executable newton_test[0m
+[5.702s] [ 25%] Built target newton_test
+[6.099s] [ 28%] [32m[1mLinking CXX executable osqp_test[0m
+[6.221s] [ 28%] Built target osqp_test
+[8.828s] [ 30%] [32m[1mLinking CXX shared library libglobal_planner.so[0m
+[8.932s] [ 30%] Built target global_planner
+[8.940s] [ 33%] [32mBuilding CXX object src/global_planner/CMakeFiles/global_path_server.dir/global_path_server.cpp.o[0m
+[9.042s] [ 35%] [32m[1mLinking CXX shared library libpnc_map_creator.so[0m
+[9.167s] [ 35%] Built target pnc_map_creator
+[9.176s] [ 38%] [32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_server.dir/pnc_map_server.cpp.o[0m
+[14.452s] [ 41%] [32m[1mLinking CXX shared library libmathlibs.so[0m
+[14.774s] [ 41%] Built target mathlibs
+[14.781s] [ 48%] [32mBuilding CXX object src/vehicle_info/CMakeFiles/vehicle_info.dir/main_car/main_car_info.cpp.o[0m
+[14.781s] [ 48%] [32mBuilding CXX object src/reference_line/CMakeFiles/reference_line.dir/reference_line_creator.cpp.o[0m
+[14.781s] [ 48%] [32mBuilding CXX object src/vehicle_info/CMakeFiles/vehicle_info.dir/obs_car/obs_car_info.cpp.o[0m
+[14.781s] [ 51%] [32mBuilding CXX object src/reference_line/CMakeFiles/reference_line.dir/reference_line_smoother.cpp.o[0m
+[15.088s] [ 53%] [32m[1mLinking CXX executable global_path_server[0m
+[15.350s] [ 56%] [32m[1mLinking CXX executable pnc_map_server[0m
+[15.350s] [ 56%] Built target global_path_server
+[15.602s] [ 56%] Built target pnc_map_server
+[18.067s] [ 58%] [32m[1mLinking CXX shared library libvehicle_info.so[0m
+[18.270s] [ 58%] Built target vehicle_info
+[18.278s] [ 61%] [32mBuilding CXX object src/decision_center/CMakeFiles/decision_center.dir/decision_center.cpp.o[0m
+[18.278s] [ 64%] [32mBuilding CXX object src/move_cmd/CMakeFiles/car_move_cmd.dir/car_move_cmd.cpp.o[0m
+[18.278s] [ 66%] [32mBuilding CXX object src/move_cmd/CMakeFiles/obs_move_cmd.dir/obs_move_cmd.cpp.o[0m
+[19.872s] [ 69%] [32m[1mLinking CXX shared library libreference_line.so[0m
+[20.103s] [ 69%] Built target reference_line
+[20.408s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:35[m[K,
+[20.408s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34[m[K,
+[20.408s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[20.408s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[20.408s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[20.408s]                  from [01m[K/home/abc/planning_with_ros2/src/planning/src/move_cmd/obs_move_cmd.h:4[m[K,
+[20.409s]                  from [01m[K/home/abc/planning_with_ros2/src/planning/src/move_cmd/obs_move_cmd.cpp:1[m[K:
+[20.409s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:52:3:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+[20.409s]    52 |   [01;31m[KRCLCPP_SMART_PTR_DEFINITIONS[m[K(AsyncParametersClient)
+[20.409s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.522s] 0x723f0924251f ???
+[20.522s] 	./signal/../sysdeps/unix/sysv/linux/x86_64/libc_sigaction.c:0
+[20.525s] 0x723f09229d8f __libc_start_call_main
+[20.525s] 	../sysdeps/nptl/libc_start_call_main.h:58
+[20.525s] 0x723f09229e3f __libc_start_main_impl
+[20.526s] 	../csu/libc-start.c:392
+[20.526s] Please submit a full bug report,
+[20.526s] with preprocessed source if appropriate.
+[20.526s] Please include the complete backtrace with any bug report.
+[20.526s] See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+[20.542s] gmake[2]: *** [src/move_cmd/CMakeFiles/obs_move_cmd.dir/build.make:79: src/move_cmd/CMakeFiles/obs_move_cmd.dir/obs_move_cmd.cpp.o] Error 1
+[20.542s] gmake[1]: *** [CMakeFiles/Makefile2:860: src/move_cmd/CMakeFiles/obs_move_cmd.dir/all] Error 2
+[20.542s] gmake[1]: *** Waiting for unfinished jobs....
+[21.572s] [ 71%] [32m[1mLinking CXX shared library libdecision_center.so[0m
+[21.678s] [ 71%] Built target decision_center
+[26.582s] [ 74%] [32m[1mLinking CXX executable car_move_cmd[0m
+[26.997s] [ 74%] Built target car_move_cmd
+[26.998s] gmake: *** [Makefile:146: all] Error 2
+[26.999s] Invoked command in '/home/abc/planning_with_ros2/build/planning' returned '2': CMAKE_PREFIX_PATH=/home/abc/planning_with_ros2/install/base_msgs:/home/abc/planning_with_ros2/install/planning:/home/abc/perception_with_ros2/install/perception:/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/planning_with_ros2/install/data_plot:/home/abc/perception_with_ros2/install/data_plot_per:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/local/cuda-11.8/lib64:/home/abc/planning_with_ros2/install/planning/lib:/usr/local/cuda-11.8/lib64:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/base_msgs_per/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/abc/TensorRT-8.6/lib:/home/abc/TensorRT-8.6/lib /usr/local/bin/cmake --build /home/abc/planning_with_ros2/build/planning -- -j12 -l12

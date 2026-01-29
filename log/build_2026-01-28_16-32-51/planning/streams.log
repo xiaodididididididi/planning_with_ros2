@@ -1,0 +1,67 @@
+[0.255s] Invoking command in '/home/abc/planning_with_ros2/build/planning': CMAKE_PREFIX_PATH=/home/abc/planning_with_ros2/install/base_msgs:/home/abc/planning_with_ros2/install/planning:/home/abc/perception_with_ros2/install/perception:/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/planning_with_ros2/install/data_plot:/home/abc/perception_with_ros2/install/data_plot_per:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/local/cuda-11.8/lib64:/home/abc/planning_with_ros2/install/planning/lib:/usr/local/cuda-11.8/lib64:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/base_msgs_per/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/abc/TensorRT-8.6/lib:/home/abc/TensorRT-8.6/lib /usr/local/bin/cmake --build /home/abc/planning_with_ros2/build/planning -- -j12 -l12
+[0.277s] [  5%] Built target config_reader
+[0.279s] [ 10%] Built target osqp_test
+[0.279s] [ 15%] Built target newton_test
+[0.279s] [ 23%] Built target mathlibs
+[0.290s] [ 30%] Built target global_planner
+[0.290s] [ 35%] Built target pnc_map_creator
+[0.292s] [ 43%] Built target vehicle_info
+[0.295s] [ 51%] Built target reference_line
+[0.302s] [ 56%] Built target global_path_server
+[0.304s] [ 61%] Built target pnc_map_server
+[0.305s] [ 66%] Built target car_move_cmd
+[0.305s] [ 71%] Built target decision_center
+[0.308s] [ 76%] Built target obs_move_cmd
+[0.334s] [ 92%] Built target local_planner
+[0.358s] [100%] Built target planning_process
+[0.361s] Invoked command in '/home/abc/planning_with_ros2/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/abc/planning_with_ros2/install/base_msgs:/home/abc/planning_with_ros2/install/planning:/home/abc/perception_with_ros2/install/perception:/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/planning_with_ros2/install/data_plot:/home/abc/perception_with_ros2/install/data_plot_per:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/local/cuda-11.8/lib64:/home/abc/planning_with_ros2/install/planning/lib:/usr/local/cuda-11.8/lib64:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/base_msgs_per/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/abc/TensorRT-8.6/lib:/home/abc/TensorRT-8.6/lib /usr/local/bin/cmake --build /home/abc/planning_with_ros2/build/planning -- -j12 -l12
+[0.363s] Invoking command in '/home/abc/planning_with_ros2/build/planning': CMAKE_PREFIX_PATH=/home/abc/planning_with_ros2/install/base_msgs:/home/abc/planning_with_ros2/install/planning:/home/abc/perception_with_ros2/install/perception:/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/planning_with_ros2/install/data_plot:/home/abc/perception_with_ros2/install/data_plot_per:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/local/cuda-11.8/lib64:/home/abc/planning_with_ros2/install/planning/lib:/usr/local/cuda-11.8/lib64:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/base_msgs_per/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/abc/TensorRT-8.6/lib:/home/abc/TensorRT-8.6/lib /usr/local/bin/cmake --install /home/abc/planning_with_ros2/build/planning
+[0.365s] -- Install configuration: ""
+[0.365s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/lib/libconfig_reader.so
+[0.365s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/lib/libmathlibs.so
+[0.365s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/lib/libdecision_center.so
+[0.366s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/lib/libpnc_map_creator.so
+[0.366s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/lib/planning/pnc_map_server
+[0.366s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/lib/libglobal_planner.so
+[0.367s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/lib/planning/global_path_server
+[0.367s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/lib/liblocal_planner.so
+[0.367s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/lib/libreference_line.so
+[0.368s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/lib/planning/osqp_test
+[0.368s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/lib/planning/newton_test
+[0.368s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/lib/libvehicle_info.so
+[0.369s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/lib/planning/planning_process
+[0.369s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/lib/planning/car_move_cmd
+[0.369s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/lib/planning/obs_move_cmd
+[0.370s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/config
+[0.370s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/config/planning_static_obs_config.yaml
+[0.370s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/config/planning_dynamic_obs_config.yaml
+[0.370s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/launch
+[0.370s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/launch/planning_launch.py
+[0.371s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/launch/move_cmd_launch.py
+[0.371s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf
+[0.371s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/main_car
+[0.371s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/main_car/car_camera.xacro
+[0.371s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/main_car/car_base.xacro
+[0.372s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/main_car/car_radar.xacro
+[0.372s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/main_car/car.xacro
+[0.373s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/main_car/car_wheels.xacro
+[0.373s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/obs_car
+[0.373s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/urdf/obs_car/obs_car.xacro
+[0.373s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/rviz
+[0.373s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/rviz/planning.rviz
+[0.374s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/ament_index/resource_index/package_run_dependencies/planning
+[0.374s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/ament_index/resource_index/parent_prefix_path/planning
+[0.374s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/environment/ament_prefix_path.sh
+[0.375s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/environment/ament_prefix_path.dsv
+[0.375s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/environment/path.sh
+[0.375s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/environment/path.dsv
+[0.375s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/local_setup.bash
+[0.376s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/local_setup.sh
+[0.376s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/local_setup.zsh
+[0.376s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/local_setup.dsv
+[0.377s] -- Installing: /home/abc/planning_with_ros2/install/planning/share/planning/package.dsv
+[0.377s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/ament_index/resource_index/packages/planning
+[0.377s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/cmake/planningConfig.cmake
+[0.378s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/cmake/planningConfig-version.cmake
+[0.378s] -- Up-to-date: /home/abc/planning_with_ros2/install/planning/share/planning/package.xml
+[0.378s] Invoked command in '/home/abc/planning_with_ros2/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/abc/planning_with_ros2/install/base_msgs:/home/abc/planning_with_ros2/install/planning:/home/abc/perception_with_ros2/install/perception:/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/planning_with_ros2/install/data_plot:/home/abc/perception_with_ros2/install/data_plot_per:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/local/cuda-11.8/lib64:/home/abc/planning_with_ros2/install/planning/lib:/usr/local/cuda-11.8/lib64:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/base_msgs_per/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/abc/TensorRT-8.6/lib:/home/abc/TensorRT-8.6/lib /usr/local/bin/cmake --install /home/abc/planning_with_ros2/build/planning

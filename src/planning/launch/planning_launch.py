@@ -56,6 +56,12 @@ def generate_launch_description():
         arguments=["-d", rviz_conf_path],
     )
 
+    data_plot = Node(
+        package="data_plot",
+        executable="data_plot",
+        name="data_plot",
+    )
+
     pnc_map_server = Node(
         package="planning",
         executable="pnc_map_server",
@@ -104,6 +110,7 @@ def generate_launch_description():
             car_main,
             obs_car,
             rviz2,
+            data_plot,
             planning,
         ]
     )

@@ -50,8 +50,8 @@ namespace Planning
             }
         }
 
-        const double speed_x = 1.0 * std::cos(trajectory->local_trajectory[closest_index].path_point.theta);
-        const double speed_y = 1.0 * std::sin(trajectory->local_trajectory[closest_index].path_point.theta);
+        const double speed_x = trajectory->local_trajectory[closest_index].speed_point.speed * std::cos(trajectory->local_trajectory[closest_index].path_point.theta);
+        const double speed_y = trajectory->local_trajectory[closest_index].speed_point.speed * std::sin(trajectory->local_trajectory[closest_index].path_point.theta);
 
 #ifdef USE_ACTUAL_POS
         transform_data.transform.translation.x = car_param_.pos_x_;

@@ -16,7 +16,7 @@ namespace Planning
         local_trajector_.header = path.header;
         local_trajector_.local_trajectory.clear();
 
-        if (path_size < 3)
+        if (path_size < 3 || speeds_size < 3)
         {
             RCLCPP_WARN(rclcpp::get_logger("tragectory"), "local path or speed empty!");
             return local_trajector_;
@@ -26,6 +26,11 @@ namespace Planning
         for (int i = 0; i < path_size; i++)
         {
             point_tmp.path_point = path.local_path[i];
+
+            if (i < speeds_size)
+            {
+                point_tmp.speed_point = speeds.local_speeds[i];
+            }
 
             local_trajector_.local_trajectory.emplace_back(point_tmp);
         }
