@@ -14,7 +14,9 @@
 /home/abc/planning_with_ros2/install/planning/lib/planning/car_move_cmd
 /home/abc/planning_with_ros2/install/planning/lib/planning/obs_move_cmd
 /home/abc/planning_with_ros2/install/planning/share/planning/config/planning_static_obs_config.yaml
+/home/abc/planning_with_ros2/install/planning/share/planning/config/scenario_config.yaml
 /home/abc/planning_with_ros2/install/planning/share/planning/config/planning_dynamic_obs_config.yaml
+/home/abc/planning_with_ros2/install/planning/share/planning/config/planning_onlane_obs_config.yaml
 /home/abc/planning_with_ros2/install/planning/share/planning/launch/planning_launch.py
 /home/abc/planning_with_ros2/install/planning/share/planning/launch/move_cmd_launch.py
 /home/abc/planning_with_ros2/install/planning/share/planning/urdf/main_car/car_camera.xacro

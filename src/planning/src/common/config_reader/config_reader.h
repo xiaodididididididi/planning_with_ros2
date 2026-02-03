@@ -8,6 +8,21 @@
 
 namespace Planning
 {
+
+    enum class ScenarioType
+    {
+        LANE_FOLLOW,
+        STATIC_OBS,
+        ONLANE_OBS,
+        DYNAMIC_OBS
+    };
+
+    struct ScenarioStruct
+    {
+        int type_ = 0;
+        int obs_num_ = 0;
+    };
+
     struct VehicleStruct
     {
         int id_ = 0;
@@ -68,6 +83,8 @@ namespace Planning
     {
     public:
         ConfigReader();
+        void read_scenario_config();
+        inline ScenarioStruct scenario() const { return scenario_; }
         void read_vehicle_config(VehicleStruct &vehicle, const std::string &name);
         void read_vehicles_config();
         inline VehicleStruct main_car() const { return main_car_; }
@@ -93,6 +110,8 @@ namespace Planning
 
     private:
         YAML::Node planning_config;
+        YAML::Node scenario_config;
+        ScenarioStruct scenario_;
         VehicleStruct main_car_;
         VehicleStruct obs_car1_;
         VehicleStruct obs_car2_;

@@ -10,7 +10,7 @@ namespace Planning
         obs_dis_ = process_config_->process().obs_dis_;
 
         car_ = std::make_shared<MainCar>();
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < process_config_->scenario().obs_num_; i++)
         {
             auto obs_car_ = std::make_shared<ObsCar>(i + 1);
             obses_spawn_.emplace_back(obs_car_);
