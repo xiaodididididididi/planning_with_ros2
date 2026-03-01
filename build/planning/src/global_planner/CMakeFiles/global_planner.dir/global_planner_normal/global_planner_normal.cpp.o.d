@@ -683,4 +683,7 @@ src/global_planner/CMakeFiles/global_planner.dir/global_planner_normal/global_pl
  /usr/include/yaml-cpp/node/detail/impl.h \
  /usr/include/yaml-cpp/node/parse.h /usr/include/yaml-cpp/node/emit.h \
  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
- /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h
+ /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
+ /usr/include/c++/11/queue /usr/include/c++/11/deque \
+ /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
+ /usr/include/c++/11/bits/stl_queue.h
