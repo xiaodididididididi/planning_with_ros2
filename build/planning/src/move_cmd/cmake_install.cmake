@@ -54,7 +54,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/planning/car_move_cmd")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/planning/car_move_cmd"
-         OLD_RPATH "/opt/ros/humble/lib:/home/abc/planning_with_ros2/build/planning/src/vehicle_info:/home/abc/planning_with_ros2/build/planning/src/common:/home/abc/planning_with_ros2/install/base_msgs/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/abc/planning_with_ros2/build/planning/src/vehicle_info:/usr/local/lib:/home/abc/planning_with_ros2/build/planning/src/common:/home/abc/planning_with_ros2/install/base_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/planning/car_move_cmd")
@@ -78,7 +78,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/planning/obs_move_cmd")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/planning/obs_move_cmd"
-         OLD_RPATH "/opt/ros/humble/lib:/home/abc/planning_with_ros2/build/planning/src/vehicle_info:/home/abc/planning_with_ros2/build/planning/src/common:/home/abc/planning_with_ros2/install/base_msgs/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/abc/planning_with_ros2/build/planning/src/vehicle_info:/usr/local/lib:/home/abc/planning_with_ros2/build/planning/src/common:/home/abc/planning_with_ros2/install/base_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/planning/obs_move_cmd")

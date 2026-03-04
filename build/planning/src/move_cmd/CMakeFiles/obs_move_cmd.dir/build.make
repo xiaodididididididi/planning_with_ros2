@@ -97,6 +97,7 @@ src/move_cmd/obs_move_cmd: src/move_cmd/CMakeFiles/obs_move_cmd.dir/obs_move_cmd
 src/move_cmd/obs_move_cmd: src/move_cmd/CMakeFiles/obs_move_cmd.dir/build.make
 src/move_cmd/obs_move_cmd: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
 src/move_cmd/obs_move_cmd: src/vehicle_info/libvehicle_info.so
+src/move_cmd/obs_move_cmd: /usr/local/lib/libOsqpEigen.so.0.8.1
 src/move_cmd/obs_move_cmd: /opt/ros/humble/lib/libtf2_ros.so
 src/move_cmd/obs_move_cmd: /opt/ros/humble/lib/libmessage_filters.so
 src/move_cmd/obs_move_cmd: /opt/ros/humble/lib/librclcpp_action.so
@@ -231,6 +232,7 @@ src/move_cmd/obs_move_cmd: /opt/ros/humble/lib/librosidl_typesupport_c.so
 src/move_cmd/obs_move_cmd: /opt/ros/humble/lib/librcpputils.so
 src/move_cmd/obs_move_cmd: /opt/ros/humble/lib/librosidl_runtime_c.so
 src/move_cmd/obs_move_cmd: /opt/ros/humble/lib/librcutils.so
+src/move_cmd/obs_move_cmd: /usr/local/lib/libosqp.so
 src/move_cmd/obs_move_cmd: src/move_cmd/CMakeFiles/obs_move_cmd.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/abc/planning_with_ros2/build/planning/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable obs_move_cmd"
 	cd /home/abc/planning_with_ros2/build/planning/src/move_cmd && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/obs_move_cmd.dir/link.txt --verbose=$(VERBOSE)

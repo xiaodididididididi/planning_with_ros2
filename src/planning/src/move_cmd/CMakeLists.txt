@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.31.3)
 project(move_cmd)
 
+find_package(Eigen3 REQUIRED)
+find_package(OsqpEigen REQUIRED)
+
 # set depends
 set(DEPENDS
   "rclcpp"
@@ -33,6 +36,8 @@ foreach(target ${MOVE_TARGETS})
   target_link_libraries(${target}
     config_reader
     vehicle_info
+    Eigen3::Eigen
+    OsqpEigen::OsqpEigen
   )
 endforeach()
 
